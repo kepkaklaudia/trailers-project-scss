@@ -1,0 +1,33 @@
+@use "../../../styles/themes.scss" as themes;
+@use "../../../styles/button.scss" as button;
+@use "../../../styles/heading.scss" as heading;
+
+.container {
+  margin-top: 50px;
+}
+
+.heading {
+  @include heading.heading;
+}
+
+.group {
+  margin: 25px auto;
+  max-width: 350px;
+  @include themes.small {
+    margin-bottom: 0;
+  }
+}
+
+.input {
+  @include themes.small {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+.link {
+  @include button.button;
+  margin: 25px auto;
+  text-decoration: none;
+  width: 150px;
+}

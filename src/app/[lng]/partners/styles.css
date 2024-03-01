@@ -1,0 +1,99 @@
+.marker {
+  display: flex;
+  justify-items: flex-start;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.marker__title {
+  background-color: #5ba5b0;
+  color: #fff;
+  font-size: 14px;
+  padding: 3px 1px;
+}
+
+.marker_flex {
+  display: flex;
+  gap: 8px;
+}
+
+.marker__image {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+@media (max-width: 575.98px) {
+  .marker__image {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.marker__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  font-size: 14px;
+  color: #2f2f2f;
+}
+
+@media (max-width: 575.98px) {
+  .marker__wrapper {
+    font-size: 12px;
+  }
+}
+
+.marker__paragraph {
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.marker__link {
+  color: #545b6b;
+  padding: 4px 3px;
+  word-break: break-all;
+  text-align: left;
+}
+
+.marker__link:hover {
+  color: #1d1d1d;
+}
+
+.gm-style-iw.gm-style-iw-c {
+  transform: translate3d(-50%, -120%, 0);
+  padding: 0px;
+}
+
+.gm-style-iw-tc::after {
+  display: none;
+}
+
+.gm-style-iw-d {
+  overflow: hidden !important;
+}
+
+.gm-ui-hover-effect {
+  right: 15px !important;
+  top: 12px !important;
+  width: auto !important;
+  height: auto !important;
+  padding: 1px !important;
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0.539) !important;
+  opacity: 1 !important;
+  transition: background-color 0.2s;
+}
+
+.gm-ui-hover-effect:hover {
+  background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.gm-ui-hover-effect > span {
+  background-color: #fff;
+  width: 16px !important;
+  height: 16px !important;
+  margin: 0 !important;
+}

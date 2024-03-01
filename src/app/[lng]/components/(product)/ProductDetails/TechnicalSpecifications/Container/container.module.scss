@@ -1,0 +1,27 @@
+@use "../../../../../styles/themes.scss" as themes;
+
+.container {
+  margin: 50px auto 100px auto;
+  display: grid;
+  place-content: center;
+  width: 600px;
+  min-width: 250px;
+
+  @include themes.large {
+    width: 500px;
+  }
+
+  @include themes.small {
+    width: 260px;
+  }
+}
+
+.table {
+  border-collapse: collapse;
+  background: themes.$white;
+  overflow-y: auto;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}

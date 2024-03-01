@@ -1,0 +1,56 @@
+@use "../../../styles/themes.scss" as themes;
+
+.container {
+  background-color: themes.$white;
+  border: 1px solid themes.$alto;
+  border-radius: 6px;
+  text-align: left;
+  padding: 20px;
+  padding-bottom: 10px;
+  margin-right: 50px;
+
+  @include themes.extraLarge {
+    margin: 30px auto 0 auto;
+    max-width: 700px;
+    width: 80%;
+  }
+
+  @include themes.small {
+    font-size: 14px;
+  }
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+
+  @include themes.small {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+}
+
+.ul {
+  width: fit-content;
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.li {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+
+  &::before {
+    content: "";
+    display: flex;
+    align-self: flex-start;
+    margin-top: 4px;
+    height: 15px;
+    width: 15px;
+    background-image: url("/assets/carouselArrow.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}

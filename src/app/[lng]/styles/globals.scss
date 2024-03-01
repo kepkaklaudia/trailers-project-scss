@@ -1,0 +1,205 @@
+@use "./themes.scss" as themes;
+
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: themes.$alabaster !important;
+  min-height: 100vh;
+  color: themes.$black;
+  margin: 0 auto;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+  position: relative;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 3px themes.$blackOpacity;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  background-color: themes.$blackOpacity;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+.productCarousel {
+  .slick-prev {
+    display: none !important;
+  }
+
+  .slick-next:before {
+    content: url("/assets/carouselArrow.svg") !important;
+    position: absolute;
+    top: auto;
+    bottom: auto;
+    right: -25px;
+    transform: rotate(0deg) translateY(-50%) scale(0.8);
+  }
+}
+
+.luggage {
+  background-color: themes.$shuttle;
+}
+
+.car-transporters {
+  background-color: themes.$hippie;
+}
+
+.boat {
+  background-color: themes.$casper;
+}
+
+.special {
+  background-color: themes.$pickled;
+}
+
+//Safari reset
+button {
+  color: themes.$black;
+}
+
+/*
+.centerCarousel {
+  .slick-center {
+    transform: scale(1.1);
+  }
+
+  .slick-track {
+    padding: 40px 0;
+  }
+  .slick-slide {
+    transition: 250ms;
+  }
+}
+
+
+.productsCarousel {
+  .slick-prev {
+    display: none !important;
+  }
+
+  .slick-next:before {
+    content: url("/assets/carouselArrow.svg") !important;
+    position: absolute;
+    top: auto;
+    bottom: auto;
+    right: -25px;
+    transform: rotate(0deg) translateY(-50%) scale(0.8);
+  }
+}
+
+
+
+.centerCarousel {
+  .slick-center{
+  transform: scale(0.98);}
+  .slick-track {
+    perspective: 1000000000000px;
+  }
+  .slick-track,
+  .slick-list {
+  -webkit-perspective: 2000;
+  -webkit-backface-visibility: hidden;
+  }
+
+    // 3 - pierwszy od lewej (przecina krawędź) ( drugi od środka w lewo)
+  // 5 - pierwszy od lewej  (przecina krawędź)
+  .slick-slide:not(.slick-center):not(.slick-active) {
+    transform: rotateY(0deg) skewY(-8deg) translateY(50px);
+//background-color: black;
+@include themes.extraLarge {
+  transform: rotateY(0deg) skewY(-8deg) translateY(50px);
+}
+
+    @include themes.medium {
+      transform: rotateY(0deg) skewY(0deg) translateY(0px);
+    }
+  }
+
+
+    // 3 - pierwszy od środka w lewo
+  // 5 - drugi od środka w lewo
+  .slick-slide:not(.slick-center) {
+    transform: rotateY(-10deg) skewY(-4deg) translateY(15px);
+   // background-color: yellow;
+    
+    @include themes.extraLarge {
+      transform: rotateY(-10deg) skewY(-4deg) translateY(15px);
+      
+    }
+
+    @include themes.medium {
+      transform: skewY(1deg) rotateY(-10deg);
+    }
+  }
+
+    //TYLKO DLA 5 KART - pierwszy od środka w lewo
+    .slick-slide.slick-active + .slick-slide:not(.slick-center) {
+      transform: skewY(-1deg) rotateY(-10deg);
+    //  background-color: green;
+      @include themes.medium {
+        transform: rotateY(0deg) skewY(0deg) translateY(0px);
+      }
+    }
+
+  
+  // 3 - pierwszy od środka w prawo
+  // 5 - pierwszy od środka w prawo
+  .slick-slide.slick-active.slick-center + .slick-slide {
+    transform: skewY(1deg) rotateY(-10deg);
+  //  background-color: red;
+
+    @include themes.extraLarge {
+  
+    transform: rotateY(-10deg) skewY(4deg) translateY(15px);
+    }
+    @include themes.medium {
+      transform: rotateY(0deg) skewY(0deg) translateY(0px);
+    }
+  }
+
+//  3 - drugi od środka w prawo
+// 5 -  drugi od środka w prawo
+  .slick-slide.slick-active.slick-center + .slick-slide + .slick-slide {
+    transform: rotateY(-10deg) skewY(4deg) translateY(15px);
+    //background-color: blue;
+
+    @include themes.extraLarge {
+  
+      transform: rotateY(0deg) skewY(8deg) translateY(60px);
+      }
+
+    @include themes.medium {
+      transform: rotateY(0deg) skewY(0deg) translateY(0px);
+    }
+  }
+// trzeci od środka w lewo
+  .slick-slide.slick-active.slick-center
+    + .slick-slide
+    + .slick-slide
+    + .slick-slide {
+    transform: rotateY(0deg) skewY(8deg) translateY(60px);
+    //background-color: orange;
+    @include themes.medium {
+      transform: rotateY(0deg) skewY(0deg) translateY(0px);
+    }
+  }
+}
+*/

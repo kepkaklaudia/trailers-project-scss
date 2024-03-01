@@ -1,0 +1,14 @@
+[
+  {
+    "companyName": "Balhanger",
+    "address": "Wsola, Gombrowicza 4, 26-660 Jedlińsk",
+    "website": "https://www.balhanger.com/",
+    "email": "info@balhanger.com",
+    "tel": "",
+    "src": "/assets/downloads/logo-svg.svg",
+    "position": {
+      "lat": 51.48325725,
+      "lng": 21.126140730306165
+    }
+  }
+]

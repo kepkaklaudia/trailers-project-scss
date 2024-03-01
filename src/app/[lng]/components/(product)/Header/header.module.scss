@@ -1,0 +1,60 @@
+@use "../../../styles/themes.scss" as themes;
+
+.container {
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+  margin: 30px 0;
+  width: 80%;
+  flex-wrap: wrap;
+
+  @include themes.large {
+    margin: 0;
+  }
+}
+
+.ticket {
+  width: 35px;
+  height: 40px;
+  margin-right: 5px;
+  margin-bottom: 8px;
+  transform: skewX(-30deg);
+  flex-shrink: 0;
+  align-self: center;
+
+  @include themes.large {
+    width: 25px;
+    height: 35px;
+  }
+  @include themes.medium {
+    height: 25px;
+  }
+}
+
+.title {
+  font-weight: 700;
+  font-size: 60px;
+
+  @include themes.large {
+    font-size: 50px;
+  }
+
+  @include themes.small {
+    font-size: 30px;
+  }
+}
+
+.subtitle {
+  font-size: 20px;
+  vertical-align: baseline;
+  text-transform: uppercase;
+  font-weight: 700;
+
+  @include themes.large {
+    font-size: 18px;
+  }
+
+  @include themes.small {
+    font-size: 18px;
+  }
+}

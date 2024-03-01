@@ -1,0 +1,20 @@
+@use "../styles/themes.scss" as themes;
+
+.image {
+  object-fit: cover;
+  max-height: 500px;
+  aspect-ratio: 3/1;
+}
+
+.section {
+  width: 80%;
+  margin: 60px auto 0 auto;
+}
+
+.border {
+  margin-top: 120px;
+
+  @include themes.small {
+    margin-top: 100px;
+  }
+}

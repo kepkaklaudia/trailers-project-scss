@@ -1,0 +1,127 @@
+@use "../../../../styles/heading.scss" as heading;
+@use "../../../../styles/themes.scss" as themes;
+@use "../../../../styles/button.scss" as button;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: flex-start;
+  margin-top: 50px;
+  margin-bottom: 100px;
+
+  @include themes.small {
+    margin-bottom: 80px;
+  }
+}
+
+.paragraph {
+  justify-self: flex-start;
+}
+
+.wrapper__main {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 0.8fr;
+  gap: 100px;
+
+  @include themes.extraLarge {
+    gap: 50px;
+  }
+
+  @include themes.large {
+    grid-template-columns: 0.8fr 1fr;
+  }
+
+  @include themes.medium {
+    grid-template-columns: 0.8fr;
+    place-content: center;
+  }
+
+  @include themes.superSmall {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  aspect-ratio: 1.8/1;
+  max-width: 550px;
+  border-radius: 6px;
+  border: 1px solid themes.$alto;
+  background-color: themes.$white;
+  max-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.svg {
+  width: 50%;
+  height: auto;
+  aspect-ratio: 1.8/1;
+}
+
+.details__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+
+  @include themes.large {
+    font-size: 14px;
+  }
+}
+
+.checkbox {
+  text-align: left;
+  font-weight: 500;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 5px;
+  align-items: center;
+
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  &__description {
+    background-color: themes.$shaft;
+    color: themes.$white;
+    margin: 15px 0;
+    padding: 2px 0px;
+  }
+}
+
+.button {
+  @include button.button;
+  width: 180px;
+  align-self: flex-end;
+  margin: 25px 0;
+  text-decoration: none;
+  @include themes.medium {
+    align-self: center;
+  }
+
+  @include themes.superSmall {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+}
+
+.border {
+  width: 120%;
+  align-self: center;
+}

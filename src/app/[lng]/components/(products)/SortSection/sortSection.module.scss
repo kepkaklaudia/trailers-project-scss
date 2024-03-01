@@ -1,0 +1,103 @@
+@use "../../../styles/themes.scss" as themes;
+@use "../../../styles/button.scss" as button;
+
+.wrapper {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: flex-end;
+  align-items: baseline;
+
+  @include themes.small {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    justify-content: center;
+    place-items: center;
+  }
+}
+
+.group {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 35px;
+  font-size: 14px;
+}
+
+.container {
+  position: relative;
+}
+
+.checkbox {
+  text-align: left;
+
+  &__details {
+    display: none;
+  }
+
+  &__show {
+    display: block;
+    position: absolute;
+    margin-top: 10px;
+  }
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 10px;
+
+  @include themes.small {
+    margin-top: 70px;
+  }
+}
+
+.sort {
+  @include button.button;
+  margin: 0 25px;
+  height: 50px;
+  width: 150px;
+  justify-self: flex-end;
+
+  @include themes.extraLarge {
+    width: 100px;
+    height: 40px;
+    padding: 0;
+  }
+
+  @include themes.small {
+    order: -1;
+    justify-self: center;
+  }
+}
+
+.reset {
+  @include button.button;
+  margin: 0 25px;
+  height: 50px;
+  width: 150px;
+  justify-self: flex-end;
+  background-color: themes.$grey;
+  color: themes.$black;
+  &:hover:before {
+    border-color: themes.$grey;
+  }
+
+  &:hover:after {
+    border-color: themes.$grey;
+  }
+  &:active {
+    background-color: themes.$grey;
+    color: themes.$black;
+  }
+
+  @include themes.extraLarge {
+    width: 100px;
+    height: 40px;
+    padding: 0;
+  }
+
+  @include themes.small {
+    order: -1;
+    justify-self: center;
+  }
+}

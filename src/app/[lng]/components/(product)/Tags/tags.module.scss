@@ -1,0 +1,47 @@
+@use "../../../styles/themes.scss" as themes;
+
+.container {
+  max-width: 500px;
+  text-align: left;
+  @include themes.small {
+    font-size: 10px;
+    margin-right: 20px;
+  }
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-start;
+  margin-top: 14px;
+}
+
+.tag {
+  padding: 1px 5px;
+  font-size: 14px;
+  text-decoration: none;
+  color: themes.$black;
+  margin: 0;
+  @include themes.large {
+    font-size: 12px;
+  }
+}
+
+.car-transporters {
+  background-color: themes.$carsGalvanized;
+}
+
+.boat {
+  background-color: themes.$boatGalvanized;
+}
+
+.special {
+  background-color: themes.$specialGalvanized;
+  color: themes.$white;
+}
+
+.luggage {
+  background-color: themes.$luggageGalvanized;
+  color: themes.$white;
+}

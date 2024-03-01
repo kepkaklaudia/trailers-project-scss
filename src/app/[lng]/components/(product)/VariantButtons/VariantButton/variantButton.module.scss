@@ -1,0 +1,66 @@
+@use "../../../../styles/themes.scss" as themes;
+
+.button {
+  border: none;
+  font-size: 14px;
+  padding: 8px;
+
+  @include themes.large {
+    font-size: 10px;
+    padding: 5px;
+  }
+}
+
+.car-transporters__first {
+  background-color: themes.$carsGalvanized;
+}
+
+.car-transporters__second {
+  background-color: themes.$carsPowder;
+}
+
+.car-transporters__third {
+  background-color: themes.$carsFill;
+}
+
+.boat__first {
+  background-color: themes.$boatGalvanized;
+}
+
+.boat__second {
+  background-color: themes.$boatPowder;
+}
+
+.boat__third {
+  background-color: themes.$boatFill;
+}
+
+.special__first {
+  background-color: themes.$specialGalvanized;
+  color: themes.$white;
+}
+
+.special__second {
+  background-color: themes.$specialPowder;
+  color: themes.$white;
+}
+
+.special__third {
+  background-color: themes.$specialFill;
+  color: themes.$white;
+}
+
+.luggage__first {
+  background-color: themes.$luggageGalvanized;
+  color: themes.$white;
+}
+
+.luggage__second {
+  background-color: themes.$luggagePowder;
+  color: themes.$white;
+}
+
+.luggage__third {
+  background-color: themes.$luggageFill;
+  color: themes.$white;
+}

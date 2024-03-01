@@ -1,0 +1,22 @@
+@use "../../../styles/themes.scss" as themes;
+
+.navbar {
+  background: transparent;  //themes.$headerGradient;
+  background-color: transparent;
+  padding-right: 0 !important;
+  transition: background-color 0.5s;
+  justify-content: center;
+
+  @include themes.medium {
+    background-color: themes.$shaft;
+  }
+
+  &__scrolled {
+    background: none;
+    background-color: themes.$shaft;
+  }
+
+  @include themes.medium {
+    justify-content: flex-start;
+  }
+}

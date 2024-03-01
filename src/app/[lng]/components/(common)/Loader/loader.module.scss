@@ -1,0 +1,21 @@
+@use "../../../styles/themes.scss" as themes;
+
+.loader {
+  width: 300px;
+  height: 40px;
+  background: repeating-linear-gradient(
+      135deg,
+      themes.$hippie 0 18px,
+      transparent 0 25px
+    )
+    left top;
+  background-size: 300% 50%;
+  background-repeat: no-repeat;
+  animation: stroke 4s infinite linear;
+}
+
+@keyframes stroke {
+  100% {
+    background-position: top right;
+  }
+}

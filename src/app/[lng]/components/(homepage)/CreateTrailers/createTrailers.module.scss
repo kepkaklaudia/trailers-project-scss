@@ -1,0 +1,27 @@
+@use "../../../styles/button.scss" as button;
+@use "../../../styles/themes.scss" as themes;
+
+.section {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link {
+  @include button.button;
+  width: 120px;
+  margin: 20px auto 50px auto;
+
+  @include themes.large {
+    margin: 0 auto;
+  }
+}
+
+.border {
+  margin-bottom: 100px;
+
+  @include themes.medium {
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+}

@@ -1,0 +1,65 @@
+@use "../../../../../styles/themes.scss" as themes;
+
+.container {
+  position: fixed;
+  left: 0;
+  margin-top: 0px;
+  height: auto;
+  width: 100vw;
+  top: 50px;
+
+  @include themes.large {
+    top: 45px;
+  }
+}
+
+.content {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background: themes.$headerOpacity;
+  box-shadow: 0px 10px 45px 0px themes.$shaftOpacity;
+  border-bottom: 1px solid themes.$white;
+  backdrop-filter: blur(6px);
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  transition: background-color 0.5s;
+  padding-bottom: 25px;
+
+  &:hover {
+    background-color: themes.$greyOpacity;
+    backdrop-filter: blur(6px);
+  }
+
+  &:active {
+    color: themes.$black;
+    background-color: themes.$greyOpacity;
+    backdrop-filter: blur(6px);
+  }
+}
+
+.image {
+  width: 100%;
+  max-width: 235px;
+  height: auto;
+  aspect-ratio: 1.8/1;
+  padding: 0 5px;
+}
+
+.title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+  white-space: break-spaces;
+  text-align: center;
+  padding: 0 5px;
+
+  @include themes.large {
+    font-size: 18px;
+  }
+}

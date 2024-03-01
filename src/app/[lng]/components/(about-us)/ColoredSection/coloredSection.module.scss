@@ -1,0 +1,110 @@
+@use "../../../styles/themes.scss" as themes;
+@use "../../../styles/heading.scss" as heading;
+@use "../../../styles/container.scss" as container;
+
+.section {
+  background-color: themes.$greyBackground;
+  box-shadow: 0px 4px 4px 0px themes.$shaft inset;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  @include themes.small {
+    padding: 20px 0 0 0;
+  }
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    width: 100%;
+    align-items: center;
+
+    @include themes.extraLarge {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  align-self: center;
+
+  &__smaller {
+    @extend .image;
+    aspect-ratio: 3.8/1;
+
+    @include themes.extraLarge {
+      width: 90%;
+      justify-self: flex-start;
+    }
+  }
+
+  &__paddings {
+    @extend .image__smaller;
+    aspect-ratio: 2.2/1;
+  }
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  padding: 30px 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  max-width: 900px;
+
+  @include themes.small {
+    padding: 20px;
+    margin: 30px;
+  }
+
+  @include themes.superSmall {
+    padding: 20px 10px;
+  }
+
+  &__reordered {
+    @extend .wrapper;
+    @include themes.extraLarge {
+      order: -1;
+    }
+  }
+}
+
+.heading {
+  @include heading.heading;
+  margin-top: 0;
+  align-self: flex-start;
+}
+
+.paragraph {
+  margin: 8px auto;
+  font-size: 16px;
+
+  @include themes.small {
+    font-size: 14px;
+  }
+}
+
+.stroke__wrapper {
+  width: 100%;
+  margin-top: 50px;
+  height: auto;
+  position: relative;
+  display: flex;
+  height: auto;
+}
+
+.stroke {
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background-color: themes.$alabaster;
+}

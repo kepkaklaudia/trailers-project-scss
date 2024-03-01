@@ -1,0 +1,116 @@
+@use "../../../styles/themes.scss" as themes;
+
+.group {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 25px auto;
+  max-width: 500px;
+}
+
+.input {
+  &::placeholder {
+    font-size: 14px;
+  }
+  &__validation {
+    border: 1px solid themes.$crimson;
+  }
+}
+
+.label {
+  @include themes.large {
+    font-size: 14px;
+  }
+}
+
+.textField__validation {
+  color: themes.$crimson;
+  font-size: 14px;
+  position: absolute;
+  margin-top: 80px;
+
+  @include themes.large {
+    font-size: 12px;
+  }
+}
+
+.checkbox {
+  &__group {
+    position: relative;
+    text-align: left;
+    gap: 10px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  &__input {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    margin: 30px auto 20px auto;
+
+    padding-left: 0;
+    width: 100%;
+
+    input {
+      align-self: flex-start;
+      margin-top: 5px;
+      width: 17px;
+      height: 17px;
+
+      &:checked {
+        background-size: 12px;
+      }
+    }
+    label {
+      font-size: 12px;
+      pointer-events: none;
+    }
+    @include themes.small {
+      gap: 0px;
+      label {
+        font-size: 10px;
+      }
+    }
+  }
+
+  &__validation {
+    @extend .textField__validation;
+    margin-top: -25px;
+    right: 2%;
+
+    @include themes.large {
+      right: 12%;
+    }
+
+    @include themes.small {
+      font-size: 10px;
+    }
+  }
+}
+
+.textarea {
+  text-align: left;
+  height: 150px;
+  resize: none;
+  border-radius: 8px;
+  position: relative;
+
+  &::placeholder {
+    font-size: 14px;
+  }
+
+  @include themes.large {
+    height: 100px;
+  }
+
+  &__validation {
+    @extend .textField__validation;
+    margin-top: 195px;
+
+    @include themes.large {
+      margin-top: 145px;
+    }
+  }
+}

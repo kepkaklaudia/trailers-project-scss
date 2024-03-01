@@ -1,0 +1,81 @@
+@use "../../../styles/themes.scss" as themes;
+@use "../../../styles/heading.scss" as heading;
+
+.heading {
+  @include heading.heading;
+}
+
+.subheading {
+  font-size: 16px;
+  max-width: 700px;
+  margin: 25px auto;
+  width: 80%;
+
+  @include themes.superSmall {
+    font-size: 12px;
+  }
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin: 50px auto;
+  padding: 20px;
+  @include themes.large {
+    max-width: 80%;
+  }
+
+  @include themes.medium {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+    width: 80%;
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: themes.$white;
+}
+
+.card {
+  max-width: 500px;
+  width: 100%;
+  border: 1px solid themes.$alto;
+  perspective: 2500px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__body {
+    display: flex;
+    padding: 12px;
+  }
+
+  &__title {
+    margin: 0 auto;
+    padding: 5px 0;
+    color: themes.$white;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-align: center;
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s, scale 0.5s;
+    aspect-ratio: 1.7/1;
+
+    &:hover {
+      transform: translate3d(-8px, -16px, 1000px);
+      scale: 1.04;
+
+      @include themes.superSmall {
+        transform: translate3d(-5px, -10px, 1000px);
+        scale: 1.02;
+      }
+    }
+  }
+}

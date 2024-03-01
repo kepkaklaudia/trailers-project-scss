@@ -1,0 +1,71 @@
+{
+  "data": {
+    "pathID": "opti-lift-55",
+    "pdfGalvanized": "opti-lift-55-galvanized",
+    "pdfGalvanizedEn": "",
+    "pdfPowdered": "opti-lift-55-powdered",
+    "name": "OptiLift 55",
+    "category": "Car Transporters",
+    "path": "car-transporters",
+    "family": "opti-lift",
+    "tags": ["GVW3500", "GVW3000", "GVW2700", "two-axles"]
+  },
+
+  "specification": {
+    "gvw": "2700 | 3000 | 3500",
+    "load": "1900 | 2200 | 2650",
+    "area": "5530x2100",
+    "weight": "700 | 700 | 750",
+    "dimensions": "7563 X 2100 X 680",
+    "axles": "2",
+    "axlesType": "Braked",
+    "wheels": "10\", (13\" for 3500kg)"
+  },
+
+  "drawings": {
+    "front": "front",
+    "profile": "profile",
+    "top": "top"
+  },
+  
+  "standard": [
+    "Hot-dip galvanized\u00A0construction",
+    "Integrated inrun\u00A0ramp",
+    "Platform tilted by gravity with gas\u00A0springs",
+    "Manual winch - KNOTT",
+    "Support wheel",
+    "Wheel chocks",
+    "LED lighting"
+  ],
+
+  "optional": [
+    "Powder-coated elements",
+    "Aluminum filling",
+    "Toolbox",
+    "Automatic support wheel",
+    "Manual winch - AL-KO",
+    "Electric winch",
+    "Shock absorbers",
+    "One-way hydraulic pump",
+    "Two-way hydraulic pump",
+    "Aluminum sideboards",
+    "Rear lighting with dynamic direction\u00A0indicator"
+  ],
+
+  "images": {
+    "galvanized": [
+      "r1_closed",
+      "r2_closed",
+      "r3_closed"
+    ],
+    "powdered": ["r1_closed", "r1_tilting", "r2_closed", "r2_tilting", "r3_closed", "r3_tilting"],
+    "filled": [
+      "r1_closed_galvanized",
+      "r1_closed_powdered",
+      "r2_closed_galvanized",
+      "r2_closed_powdered",
+      "r2_tilting_galvanized",
+      "r2_tilting_powdered"
+    ]
+  }
+}

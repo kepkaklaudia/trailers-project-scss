@@ -1,0 +1,92 @@
+$white: #ffffff;
+$black: #1d1d1d;
+$blackOpacity: #1d1d1b80;
+$footerOpacity: #00000080;
+$shaft: #2f2f2f;
+$shaftOpacity: #2f2f2f1f;
+$alabaster: #f8f8f8;
+$alto: #d9d9d9;
+$crimson: #dc143c;
+$grey: #c8cace;
+
+$shuttle: #545b6b;
+$hippie: #5ba5b0;
+$casper: #aabdd0;
+$pickled: #885a34;
+
+$mist: #adcbd2;
+$sky: #78afb9;
+$haze: #edf3f5;
+$greyBackground: #e7e7e7;
+$greyOpacity: #ffffff35;
+$headerOpacity: #d9d9d975;
+$headerGradient: linear-gradient(
+  180deg,
+  rgb(0 0 0 / 50%) 50%,
+  rgba(15, 26, 53, 0) 100%
+);
+
+$boatGalvanized: #adbfd2;
+$boatPowder: #d7e0e9;
+$boatFill: #eaf2fa;
+
+$specialGalvanized: #633e20;
+$specialPowder: #927863;
+$specialFill: #bb9b81;
+
+$luggageGalvanized: #3e4557;
+$luggagePowder: #6b7590;
+$luggageFill: #96a4c9;
+
+$carsGalvanized: #8fbbc3;
+$carsPowder: #b3cfd5;
+$carsFill: #c8dbe0;
+
+$superSmall: 420px;
+$small: 575.98px;
+$medium: 767.98px;
+$large: 991.98px;
+$extraLarge: 1199.98px;
+$max: 1399.98px;
+
+@mixin division {
+  @media (min-width: #{$small}) and (max-width: #{$large}) {
+    @content;
+  }
+}
+
+@mixin max {
+  @media (max-width: #{$max}) {
+    @content;
+  }
+}
+
+@mixin extraLarge {
+  @media (max-width: #{$extraLarge}) {
+    @content;
+  }
+}
+
+@mixin large {
+  @media (max-width: #{$large}) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media (max-width: #{$medium}) {
+    @content;
+  }
+}
+
+@mixin small {
+  @media (max-width: #{$small}) {
+    @content;
+  }
+}
+
+@mixin superSmall {
+  @media (max-width: #{$superSmall}) {
+    @content;
+  }
+}

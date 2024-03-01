@@ -1,0 +1,44 @@
+@use "../../../styles/themes.scss" as themes;
+@use "../../../styles/heading.scss" as heading;
+@use "../../../styles/button.scss" as button;
+@use "../../../styles/container" as container;
+
+.section {
+  @include container.about;
+  margin-top: 120px;
+
+  @include themes.large {
+    margin-bottom: 0;
+  }
+}
+
+.container {
+  @include container.border;
+
+  @include themes.large {
+    order: 1;
+  }
+}
+
+.subheading {
+  font-size: 20px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.button {
+  @include button.button;
+  padding: 5px 15px;
+}
+
+.heading {
+  @include heading.heading;
+  margin-top: 0;
+  margin-bottom: 20px;
+
+  @include themes.large {
+    margin-top: 50px;
+  }
+}

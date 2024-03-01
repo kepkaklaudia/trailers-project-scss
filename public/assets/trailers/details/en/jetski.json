@@ -1,0 +1,67 @@
+{
+  "data": {
+    "pathID": "jetski",
+    "pdfFileName": "",
+    "name": "JETSKI",
+    "family": "jetski",
+    "category": "Boat",
+    "path": "boat",
+    "tags": ["GVW750", "one-axle"]
+  },
+
+  "specification": {
+    "gvw": "750",
+    "load": "600",
+    "area": "2150-3350x1350",
+    "weight": "150",
+    "dimensions": "3850-4420 X 1840 X 1100",
+    "axles": "1",
+    "axlesType": "Non-braked",
+    "wheels": "13\""
+  },
+
+  "standard": [],
+
+  "optional": [],
+
+  "drawings": {
+    "front": "",
+    "profile": "",
+    "top": ""
+  },
+
+  "images": {
+    "galvanized": [
+      "r1",
+      "r1_blue",
+      "r1_scooter",
+      "r2",
+      "r2_blue",
+      "r2_scooter",
+      "r3",
+      "r3_blue",
+      "r4",
+      "r4_blue",
+      "r5",
+      "r5_blue",
+      "r6",
+      "r6_blue"
+    ],
+    "powdered": [
+      "r1",
+      "r1_blue",
+      "r1_scooter",
+      "r2",
+      "r2_blue",
+      "r2_scooter",
+      "r3",
+      "r3_blue",
+      "r4",
+      "r4_blue",
+      "r5",
+      "r5_blue",
+      "r6",
+      "r6_blue"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+@use "../../../../styles/themes.scss" as themes;
+@use "../../../../styles/button.scss" as button;
+
+.body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 30px 30px 0px 30px;
+  gap: 10px;
+
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  &__paragraph {
+    font-weight: 700;
+  }
+}
+
+.header {
+  justify-content: center;
+  align-items: baseline;
+  gap: 15px;
+}
+
+.title {
+  margin-top: 16px;
+  color: themes.$shaft;
+  font-weight: 800;
+  font-size: 25px;
+
+  @include themes.small {
+    font-size: 20px;
+  }
+}
+
+.subtitle {
+  margin: 0px;
+  color: themes.$shaft;
+  font-weight: 600;
+  font-size: 20px;
+
+  @include themes.small {
+    font-size: 16px;
+  }
+}
+
+.link {
+  @include button.button;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-size: 16px;
+  align-self: center;
+  text-align: center;
+  padding: 5px 10px;
+
+  @include themes.superSmall {
+    font-size: 14px;
+  }
+}

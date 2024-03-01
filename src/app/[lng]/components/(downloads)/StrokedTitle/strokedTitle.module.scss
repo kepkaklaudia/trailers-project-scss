@@ -1,0 +1,43 @@
+@use "../../../styles/themes.scss" as themes;
+@use "../../../styles/stroke.scss" as stroke;
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 10px;
+
+  @include themes.small {
+    grid-template-columns: 1fr;
+  }
+}
+
+.stroke {
+  @include stroke.stroke;
+  margin: 50px auto;
+
+  @include themes.large {
+    margin: 25px auto;
+  }
+  
+  @include themes.small {
+    display: none;
+  }
+}
+
+.heading {
+  font-weight: 700;
+  margin: 0;
+  font-size: 35px;
+
+  @include themes.max {
+    font-size: 28px;
+  }
+
+  @include themes.large {
+    font-size: 25px;
+  }
+  @include themes.superSmall {
+    font-size: 20px;
+  }
+}

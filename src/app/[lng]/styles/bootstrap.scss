@@ -1,0 +1,88 @@
+@use "./themes.scss" as themes;
+
+$navbar-dark-color: themes.$white;
+$navbar-dark-hover-color: themes.$white;
+$navbar-dark-toggler-border-color: none;
+$dropdown-link-color: themes.$shaft;
+$dropdown-border-radius: 0px;
+
+$dropdown-link-hover-bg: themes.$grey;
+$dropdown-link-active-bg: themes.$grey;
+$navbar-toggler-focus-width: 0px;
+$navbar-light-toggler-border-color: none;
+$dropdown-min-width: none;
+$dropdown-padding-y: 0;
+$input-focus-box-shadow: none;
+$input-focus-border-color: themes.$shaft;
+$dropdown-spacer: 0px;
+
+$form-check-input-checked-bg-image: url("/assets/layout/BalhangerB_ICON.svg");
+$form-check-input-bg: themes.$alabaster;
+$form-check-input-width: 1.5em;
+$form-check-input-border-radius: 0;
+$form-check-input-border: 2px solid themes.$shaft;
+$form-check-input-checked-bg-color: themes.$shaft;
+
+$form-check-radio-checked-bg-image: url("/assets/layout/BalhangerB_ICON.svg");
+$form-check-radio-border-radius: 0;
+$modal-backdrop-opacity: 0.2;
+$modal-backdrop-bg: white;
+
+$modal-content-border-radius: 0;
+$modal-header-border-width: 2px;
+$modal-content-border-width: 2px;
+$modal-content-bg: themes.$alabaster;
+$modal-footer-border-width: 0;
+$btn-border-radius: 0;
+
+.form-check-input {
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.modal {
+  backdrop-filter: blur(4px);
+}
+
+.form-check-input:checked {
+  background-size: 14px;
+}
+
+.form-check-input:focus {
+  box-shadow: none !important;
+}
+
+.navbar-toggler {
+  &:focus {
+    box-shadow: 0 0 0 0px !important;
+  }
+}
+
+.nav-link {
+  text-align: left !important;
+}
+
+.btn-check:checked + .btn,
+:not(.btn-check) + .btn:active,
+.btn:first-child:active,
+.btn.active,
+.btn.show {
+  color: themes.$white !important;
+  box-shadow: none;
+  background-color: transparent !important;
+}
+
+.dropdown-toggle::after {
+  content: "" !important;
+  border: none !important;
+}
+
+.modal-content {
+  padding: 10px 30px;
+}
+
+.btn-close:focus {
+  box-shadow: 0 0 0 1px themes.$grey !important;
+}
+
+@import "node_modules/bootstrap/scss/bootstrap";

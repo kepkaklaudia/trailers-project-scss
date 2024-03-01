@@ -1,0 +1,47 @@
+@use "../../../styles/themes.scss" as themes;
+@use "../../../styles/button.scss" as button;
+
+.wrapper {
+  width: 80%;
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.consent__info {
+  font-size: 10px;
+  margin: 0;
+  text-align: left;
+}
+
+.link {
+  color: themes.$black;
+}
+
+.submit {
+  &__container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__button {
+    @include button.button;
+    margin: 50px;
+  }
+
+  &__error {
+    color: themes.$crimson;
+    font-size: 16px;
+    position: absolute;
+    top: 10px;
+    white-space: nowrap;
+
+    @include themes.small {
+      font-size: 14px;
+    }
+
+    @include themes.superSmall {
+      font-size: 14px;
+    }
+  }
+}

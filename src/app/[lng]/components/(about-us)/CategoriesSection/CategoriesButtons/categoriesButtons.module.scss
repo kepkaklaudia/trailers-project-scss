@@ -1,0 +1,65 @@
+@use "../../../../styles/themes.scss" as themes;
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 30px;
+  padding: 100px;
+  justify-content: center;
+  margin: 0 auto;
+
+  position: relative;
+  background-color: themes.$alabaster;
+  width: 100%;
+  overflow: hidden;
+
+  @include themes.large {
+    grid-template-columns: repeat(4, auto);
+    padding: 70px;
+  }
+
+  @include themes.medium {
+    grid-template-columns: repeat(2, auto);
+  }
+
+  @include themes.small {
+    padding: 50px;
+  }
+
+  @include themes.superSmall {
+    grid-template-columns: repeat(2, auto);
+    gap: 15px;
+  }
+}
+
+.background {
+  height: 240px;
+
+  @include themes.large {
+    height: 200px;
+  }
+
+  @include themes.small {
+    height: 180px;
+  }
+
+  @include themes.superSmall {
+    height: 160px;
+  }
+}
+
+.link {
+  width: 180px;
+
+  @include themes.large {
+    width: 150px;
+  }
+
+  @include themes.small {
+    width: 135px;
+  }
+
+  @include themes.superSmall {
+    width: 120px;
+  }
+}

@@ -1,0 +1,5 @@
+@use "../styles/main.scss" as main;
+
+.main {
+  @include main.main;
+}

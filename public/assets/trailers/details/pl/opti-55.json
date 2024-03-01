@@ -1,0 +1,103 @@
+{
+  "data": {
+    "pathID": "opti-55",
+    "pdfGalvanized": "opti-55-galvanized-2024",
+    "pdfGalvanizedEn": "",
+    "pdfPowdered": "opti-55-powdered",
+    "name": "Opti 55",
+    "category": "Car Transporters",
+    "path": "car-transporters",
+    "family": "opti",
+    "tags": ["GVW3500", "GVW3000", "GVW2700", "two-axles"]
+  },
+
+  "specification": {
+    "gvw": "2700 | 3000 | 3500",
+    "load": "2020 | 2300 | 2720",
+    "area": "5500x2100",
+    "weight": "680 | 700 | 780",
+    "dimensions": "7115 X 2100 X 679",
+    "axles": "2",
+    "axlesType": "Hamowne",
+    "wheels": "10\", (13\" dla 3500kg)"
+  },
+
+  "drawings": {
+    "front": "front",
+    "profile": "profile",
+    "top": "top"
+  },
+
+  "standard": [
+    "Konstrukcja cynkowana\u00A0ogniowo",
+    "Aluminiowe blachy\u00A0najazdowe",
+    "Rampy załadunkowe wykonane z aluminium chowane pod\u00A0platformą (długość: 1,5m)",
+    "Platforma uchylana grawitacyjnie za pomocą sprężyn\u00A0gazowych",
+    "Wciągarka ręczna KNOTT",
+    "Koło podporowe",
+    "Kliny blokujące koło",
+    "Oświetlenie LED"
+  ],
+
+  "optional": [
+    "Elementy malowane proszkowo",
+    "Wypełnienie aluminiowe",
+    "Skrzynka narzędziowa",
+    "Automatyczne koło podporowe",
+    "Wciągarka ręczna AL-KO",
+    "Wciągarka elektryczna",
+    "Amortyzatory",
+    "Pompa hydrauliczna jednostronna",
+    "Pompa hydrauliczna dwustronna",
+    "Burty aluminiowe",
+    "Oświetlenie tylne z dynamicznym\u00A0kierunkowskazem",
+    "Rampy załadunkowe wykonane z aluminium chowane pod\u00A0platformą (długość: 2m)"
+  ],
+
+  "images": {
+    "galvanized": [
+      "r1_closed",
+      "r1_ramps",
+      "r1_tilting",
+      "r2_closed",
+      "r2_tilting",
+      "r3_closed",
+      "r3_ramps",
+      "r3_tilting",
+      "r4_closed",
+      "r4_ramps",
+      "r4_tilting"
+    ],
+    "powdered": [
+      "r1_closed",
+      "r1_ramps",
+      "r1_tilting",
+      "r2_closed",
+      "r2_ramps",
+      "r2_tilting",
+      "r3_closed",
+      "r3_ramps",
+      "r3_tilting",
+      "r4_closed",
+      "r4_ramps",
+      "r4_tilting"
+    ],
+    "filled": [
+      "r1_closed_galvanized",
+      "r1_closed_powdered",
+      "r2_closed_galvanized",
+      "r2_closed_powdered",
+      "r2_ramps_galvanized",
+      "r2_tilting_galvanized",
+      "r2_tilting_powdered",
+      "r3_closed_galvanized",
+      "r3_closed_powdered",
+      "r3_tilting_galvanized",
+      "r3_tilting_powdered",
+      "r4_closed_galvanized",
+      "r4_closed_powdered",
+      "r4_tilting_galvanized",
+      "r4_tilting_powdered"
+    ]
+  }
+}

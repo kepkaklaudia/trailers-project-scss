@@ -1,0 +1,59 @@
+@use "../../../../styles/themes.scss" as themes;
+
+.heading {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+
+  @include themes.small {
+    font-size: 14px;
+  }
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 14px;
+  gap: 8px;
+
+  @include themes.small {
+    font-size: 12px;
+  }
+
+  &__link {
+    color: themes.$black;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: color 0.3s, opacity 0.3s;
+
+    &:hover {
+      color: themes.$black;
+      opacity: 1;
+    }
+
+    &::after {
+      content: "";
+      display: block;
+      margin: auto;
+      height: 0.5px;
+      width: 0;
+      background: transparent;
+      transition: all 0.3s;
+    }
+
+    &:hover::after {
+      -webkit-text-stroke: 1px;
+      width: 100%;
+      background: themes.$black;
+    }
+  }
+}
+
+.paragraph {
+  margin: 0;
+}

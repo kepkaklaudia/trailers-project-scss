@@ -1,0 +1,54 @@
+@use "../../../styles/themes.scss" as themes;
+@use "../../../styles/stroke.scss" as stroke;
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 80px auto 150px auto;
+  gap: 10px;
+
+  @include themes.large {
+    margin: 0px auto 80px auto;
+    grid-template-columns: 1fr;
+    gap: 80px;
+  }
+}
+
+.image {
+  width: 100%;
+  max-width: 650px;
+  max-height: 430px;
+  height: auto;
+  justify-self: center;
+  aspect-ratio: 1.5/1;
+
+  @include themes.large {
+    width: 80%;
+  }
+}
+
+.stroke {
+  @include stroke.stroke;
+  margin: 0 auto 50px auto;
+  transform: translateX(-15px);
+  @include themes.large {
+    margin: 0 auto 50px auto;
+  }
+
+  @include themes.large {
+    display: none;
+  }
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-right: 100px;
+  text-align: left;
+
+  @include themes.large {
+    padding-right: 0px;
+    margin: 0 auto;
+    width: 80%;
+  }
+}

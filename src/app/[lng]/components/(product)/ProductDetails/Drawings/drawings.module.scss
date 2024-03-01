@@ -1,0 +1,34 @@
+@use "../../../../styles/themes.scss" as themes;
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 80%;
+  margin: 0 auto 100px auto;
+  gap: 50px;
+
+  @include themes.small {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2.15/1;
+
+  &__first {
+    grid-column: span 2;
+    aspect-ratio: 3.9/1;
+
+    @include themes.small {
+      grid-column: 1;
+    }
+  }
+}
+
+.paragraph {
+  margin: 50px auto 80px auto;
+}

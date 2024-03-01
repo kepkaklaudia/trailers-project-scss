@@ -1,0 +1,73 @@
+@use "../../styles/heading.scss" as heading;
+@use "../../styles/themes.scss" as themes;
+@use "../../styles/stroke.scss" as stroke;
+
+.container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+
+  &__header {
+    @include heading.heading;
+    margin-top: 0;
+    margin-bottom: 50px;
+
+    @include themes.superSmall {
+      margin: 0;
+    }
+  }
+
+  &__heading {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+
+    @include themes.large {
+      margin: 20px 0;
+    }
+
+    @include themes.small {
+      font-size: 14px;
+    }
+  }
+
+  &__paragraph {
+    margin: 0;
+    @include themes.medium {
+      font-size: 14px;
+    }
+
+    @include themes.small {
+      font-size: 14px;
+    }
+  }
+}
+
+.border {
+  margin: 70px 0;
+
+  @include themes.superSmall {
+    margin: 40px 0;
+  }
+}
+
+.stroke {
+  @include stroke.stroke;
+  margin: 100px auto;
+
+  @include themes.large {
+    margin: 80px auto;
+  }
+
+  @include themes.small {
+    margin: 50px auto;
+  }
+  
+  @include themes.superSmall {
+    margin: 50px auto;
+  }
+}

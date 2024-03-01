@@ -1,0 +1,32 @@
+@use "./themes.scss" as themes;
+
+@mixin about {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+  gap: 60px;
+  margin: 50px auto;
+  align-items: center;
+
+  @include themes.large {
+    grid-template-columns: 1fr;
+    margin: 30px auto;
+    font-size: 14px;
+    gap: 20px;
+  }
+}
+
+@mixin border {
+  border: 1px solid themes.$alto;
+  background-color: themes.$white;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 16px;
+  padding: 16px;
+
+  @include themes.small {
+    grid-template-columns: 1fr;
+  }
+}

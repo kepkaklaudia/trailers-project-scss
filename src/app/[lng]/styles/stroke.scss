@@ -1,0 +1,18 @@
+@use "./themes.scss" as themes;
+
+@mixin stroke {
+  width: 100%;
+  height: auto;
+  margin: 80px auto;
+
+  @include themes.large {
+    margin: 50px auto;
+  }
+
+  @include themes.small {
+    margin: 20px auto;
+  }
+  @include themes.superSmall {
+    margin: 0px auto;
+  }
+}

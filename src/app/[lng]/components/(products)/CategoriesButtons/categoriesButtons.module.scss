@@ -1,0 +1,121 @@
+@use "../../../styles/themes.scss" as themes;
+@use "../../../styles/button.scss" as button;
+
+@mixin common {
+  text-transform: uppercase;
+  font-weight: 400;
+
+  @include themes.large {
+    font-size: 14px;
+  }
+
+  @include themes.medium {
+    padding: 8px 15px;
+  }
+
+  @include themes.small {
+    font-size: 12px;
+  }
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 30px;
+  padding: 100px;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: -110px;
+  position: relative;
+  background-color: themes.$alabaster;
+  width: 100%;
+  overflow: hidden;
+
+  @include themes.large {
+    grid-template-columns: repeat(4, auto);
+    padding: 100px;
+    margin-top: -120px;
+  }
+
+  @include themes.medium {
+    grid-template-columns: repeat(2, auto);
+  }
+
+  @include themes.small {
+    padding: 50px;
+    margin-top: -60px;
+  }
+
+  @include themes.superSmall {
+    grid-template-columns: repeat(2, auto);
+    gap: 15px;
+  }
+
+  &::before {
+    background-image: url("/assets/products/categoriesBackground.webp");
+    background-size: cover;
+    background-position: center;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -10px;
+    width: calc(100% + 20px);
+    height: 100%;
+    filter: blur(5px);
+    background-color: transparent;
+    background-blend-mode: color;
+    box-shadow: inset 0px -70px 23px -40px themes.$white;
+  }
+}
+
+.all {
+  @include button.button;
+  @include common;
+
+  &__active {
+    @include common;
+    background-color: themes.$white;
+    color: themes.$shaft;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    outline: 4px solid themes.$shaft;
+    outline-offset: -4px;
+  }
+}
+
+.background {
+  height: 240px;
+
+  @include themes.large {
+    height: 200px;
+  }
+
+  @include themes.small {
+    height: 180px;
+  }
+
+  @include themes.superSmall {
+    height: 160px;
+  }
+}
+
+.link {
+  width: 180px;
+
+  @include themes.large {
+    width: 150px;
+  }
+
+  @include themes.small {
+    width: 135px;
+  }
+
+  @include themes.superSmall {
+    width: 120px;
+  }
+}

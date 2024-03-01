@@ -1,0 +1,71 @@
+{
+  "data": {
+    "pathID": "logi+-90",
+    "pdfGalvanized": "logi+-90-galvanized",
+    "pdfGalvanizedEn": "",
+    "pdfPowdered": "",
+    "name": "Logi + 3590",
+    "category": "Luggage",
+    "path": "luggage",
+    "family": "logi+",
+    "tags": ["GVW3500", "three-axles"]
+  },
+
+  "specification": {
+    "gvw": "3500",
+    "load": "1930",
+    "area": "9000x2100x2000",
+    "weight": "1570",
+    "dimensions": "10630 X 2160 X 2810",
+    "axles": "3",
+    "axlesType": "Hamowne",
+    "wheels": "13\""
+  },
+
+  "drawings": {
+    "front": "front",
+    "profile": "profile",
+    "top": "top"
+  },
+
+  "standard": [
+    "Konstrukcja cynkowana\u00A0ogniowo",
+    "Podłoga ze sklejki",
+    "Burty aluminiowe",
+    "Stelaż z plandeką",
+    "Aluminiowe blachy najazdowe",
+    "Amortyzatory",
+    "Koło podporowe",
+    "Kliny blokujące koło",
+    "Oświetlenie LED"
+  ],
+
+  "optional": [
+    "Elementy malowane\u00A0proszkowo",
+    "Wypełnienie aluminiowe",
+    "Skrzynka narzędziowa",
+    "Automatyczne koło podporowe",
+    "Wciągarka ręczna DRAGON",
+    "Wciągarka elektryczna",
+    "Oświetlenie tylne z dynamicznym kierunkowskazem",
+    "Rampy załadunkowe wykonane z aluminium chowane pod platformą",
+    "Stabilizator toru jazdy (AKS)"
+  ],
+
+  "images": {
+    "galvanized": [
+      "r1",
+      "r1_blue",
+      "r1_green",
+      "r2",
+      "r2_blue",
+      "r3",
+      "r3_blue",
+      "r4",
+      "r4_blue",
+      "r5",
+      "r5_blue"
+    ],
+    "powdered": ["r1_blue", "r1_green", "r2_blue"]
+  }
+}

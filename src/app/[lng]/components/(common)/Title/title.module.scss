@@ -1,0 +1,10 @@
+@use "../../../styles/heading.scss" as heading;
+@use "../../../styles/subheading.scss" as subheading;
+
+.heading {
+  @include heading.heading;
+}
+
+.subheading {
+  @include subheading.subheading;
+}

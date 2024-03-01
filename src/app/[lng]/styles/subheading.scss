@@ -1,0 +1,10 @@
+@use "./themes.scss" as themes;
+
+@mixin subheading {
+  font-size: 18px;
+  margin: 10px auto;
+
+  @include themes.large {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "data": {
+    "pathID": "trimax-lift-60",
+    "pdfGalvanized": "trimax-lift-60-galvanized-2024",
+    "pdfGalvanizedEn": "",
+    "pdfPowdered": "trimax-lift-60-powdered",
+    "name": "TriMax Lift 60",
+    "category": "Car Transporters",
+    "path": "car-transporters",
+    "family": "trimax-lift",
+    "tags": ["GVW3500", "GVW3000", "three-axles"]
+  },
+
+  "specification": {
+    "gvw": "3000 | 3500",
+    "load": "2050 | 2400",
+    "area": "6030x2100",
+    "weight": "950",
+    "dimensions": "8080 X 2100 X 595",
+    "axles": "3",
+    "axlesType": "Braked",
+    "wheels": "10\""
+  },
+
+  "drawings": {
+    "front": "front",
+    "profile": "profile",
+    "top": "top"
+  },
+
+  "standard": [
+    "Hot-dip galvanized\u00A0construction",
+    "Integrated inrun\u00A0ramp",
+    "One-way hydraulic\u00A0pump",
+    "Manual winch - KNOTT",
+    "Support wheel",
+    "Wheel chocks",
+    "LED lighting",
+    "Shock absorbers"
+  ],
+
+  "optional": [
+    "Powder-coated elements",
+    "Aluminum filling",
+    "Toolbox",
+    "Automatic support\u00A0wheel",
+    "Manual winch - AL-KO",
+    "Electric winch",
+    "Two-way hydraulic\u00A0pump",
+    "Rear lighting with dynamic direction\u00A0indicator"
+  ],
+
+  "images": {
+    "galvanized": [
+      "r1_closed",
+      "r1_tilting",
+      "r2_closed",
+      "r2_tilting",
+      "r3_closed",
+      "r3_tilting",
+      "r4_closed",
+      "r4_tilting"
+    ],
+    "powdered": [
+      "r1_closed",
+      "r1_tilting",
+      "r2_closed",
+      "r2_tilting",
+      "r3_closed",
+      "r3_tilting",
+      "r4_closed",
+      "r4_tilting"
+    ]
+  }
+}

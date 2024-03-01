@@ -1,0 +1,71 @@
+{
+  "data": {
+    "pathID": "logi+-90",
+    "pdfGalvanized": "logi+-90-galvanized",
+    "pdfGalvanizedEn": "",
+    "pdfPowdered": "",
+    "name": "Logi + 3590",
+    "category": "Luggage",
+    "path": "luggage",
+    "family": "logi+",
+    "tags": ["GVW3500", "three-axles"]
+  },
+
+  "specification": {
+    "gvw": "3500",
+    "load": "1930",
+    "area": "9000x2100x2000",
+    "weight": "1570",
+    "dimensions": "10630 X 2160 X 2810",
+    "axles": "3",
+    "axlesType": "Braked",
+    "wheels": "13\""
+  },
+
+  "drawings": {
+    "front": "front",
+    "profile": "profile",
+    "top": "top"
+  },
+
+  "standard": [
+    "Hot-dip galvanized\u00A0construction",
+    "Plywood floor",
+    "Aluminum sides",
+    "Frame with tarpaulin",
+    "Aluminum loading ramps",
+    "Shock absorbers",
+    "Support wheel",
+    "Wheel chocks",
+    "LED lighting"
+  ],
+
+  "optional": [
+    "Powder-coated components",
+    "Aluminum filling",
+    "Toolbox",
+    "Automatic support wheel",
+    "Manual winch - DRAGON",
+    "Electric winch",
+    "Rear lighting with dynamic turn signals",
+    "Loading ramps made of aluminum, hidden under the platform",
+    "Chassis stabilizer (AKS)"
+  ],
+
+  "images": {
+    "galvanized": [
+      "r1",
+      "r1_blue",
+      "r1_green",
+      "r2",
+      "r2_blue",
+      "r3",
+      "r3_blue",
+      "r4",
+      "r4_blue",
+      "r5",
+      "r5_blue"
+    ],
+    "powdered": ["r1_blue", "r1_green", "r2_blue"]
+  }
+}

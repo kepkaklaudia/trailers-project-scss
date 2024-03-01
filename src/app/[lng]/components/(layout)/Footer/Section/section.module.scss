@@ -1,0 +1,19 @@
+@use "../../../../styles/themes.scss" as themes;
+
+.section {
+  text-align: left;
+
+  &__heading {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+    @include themes.large {
+      margin: 20px 0;
+    }
+
+    @include themes.small {
+      font-size: 14px;
+    }
+  }
+}

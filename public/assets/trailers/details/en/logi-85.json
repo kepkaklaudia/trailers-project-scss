@@ -1,0 +1,57 @@
+{
+  "data": {
+    "pathID": "logi-85",
+    "pdfGalvanized": "logi-85-galvanized",
+    "pdfGalvanizedEn": "",
+    "pdfPowdered": "",
+    "name": "Logi 3585",
+    "category": "Luggage",
+    "path": "luggage",
+    "family": "logi",
+    "tags": ["GVW3500", "three-axles"]
+  },
+
+  "specification": {
+    "gvw": "3500",
+    "load": "2305",
+    "area": "8500x2100",
+    "weight": "1195",
+    "dimensions": "10090 X 2100 X 847",
+    "axles": "3",
+    "axlesType": "Hamowne",
+    "wheels": "13\""
+  },
+
+  "drawings": {
+    "front": "front",
+    "profile": "profile",
+    "top": "top"
+  },
+
+  "standard": [
+    "Hot-dip galvanized\u00A0construction",
+    "Waterproof plywood floor",
+    "Loading ramps made of galvanized steel hidden under the\u00A0platform",
+    "Load securing holders mounted in the floor",
+    "Support wheel",
+    "Wheel chocks",
+    "LED lighting"
+  ],
+
+  "optional": [
+    "Powder-coated components",
+    "Aluminum filling",
+    "Toolbox",
+    "Automatic support wheel",
+    "Manual winch - KNOTT",
+    "Electric winch",
+    "Rear lighting with dynamic turn signals",
+    "Loading ramps made of aluminum, hidden under the platform",
+    "Chassis stabilizer (AKS)"
+  ],
+
+  "images": {
+    "galvanized": ["r1", "r2", "r2_ramps", "r3", "r4", "r5"]
+
+  }
+}

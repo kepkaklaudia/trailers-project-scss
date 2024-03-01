@@ -1,0 +1,40 @@
+@use "../../../../styles/themes.scss" as themes;
+
+.wrapper {
+  background-color: themes.$alabaster;
+  width: 100%;
+  display: flex;
+  height: auto;
+  justify-content: center;
+  margin: 0 auto 80px auto;
+  position: relative;
+
+  @include themes.large {
+    margin-bottom: 30px;
+  }
+
+  @include themes.superSmall {
+    margin-bottom: 0px;
+  }
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  margin-top: 75px;
+
+  @include themes.large {
+    margin-top: 71px;
+  }
+  @include themes.medium {
+    margin-top: 71px;
+  }
+
+  @include themes.small {
+    margin-top: 66px;
+  }
+
+  @include themes.superSmall {
+    margin-top: 61px;
+  }
+}

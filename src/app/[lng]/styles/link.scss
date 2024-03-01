@@ -1,0 +1,22 @@
+@use "./themes.scss" as themes;
+
+@mixin link {
+  cursor: pointer;
+  text-decoration: none;
+
+  &::after {
+    content: "";
+    display: block;
+    margin: auto;
+    width: 0;
+    height: 2px;
+    background: transparent;
+    transition: all 0.3s;
+  }
+
+  &:hover::after {
+    -webkit-text-stroke: 1px;
+    width: 100%;
+    background: themes.$white;
+  }
+}

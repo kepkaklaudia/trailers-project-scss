@@ -1,0 +1,29 @@
+@use "../../../../styles/themes.scss" as themes;
+@use "../../../../styles/link.scss" as link;
+
+.wrapper {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+
+  @include themes.small {
+    font-size: 12px;
+  }
+
+  &__link {
+    @include link.link;
+    color: themes.$alto;
+    opacity: 0.9;
+    transition: color 0.3s, opacity 0.3s;
+
+    &:hover {
+      color: themes.$white;
+      opacity: 1;
+    }
+
+    &::after {
+      height: 0.5px;
+    }
+  }
+}

@@ -1,0 +1,114 @@
+@use "../../../../styles/themes.scss" as themes;
+
+.container {
+  background: themes.$white;
+  margin: 50px auto 100px auto;
+  width: 600px;
+
+  @include themes.large {
+    width: 500px;
+  }
+
+  @include themes.small {
+    width: 260px;
+  }
+}
+
+.title {
+  padding: 10px;
+  background-color: themes.$haze;
+  border: 1px solid themes.$sky;
+  border-bottom: none;
+  text-align: left;
+  padding-left: 20px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid themes.$sky;
+
+  @include themes.small {
+    flex-direction: column;
+  }
+}
+
+.item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 5px;
+  text-align: left;
+  font-weight: 600;
+  padding: 10px;
+  padding-left: 20px;
+  align-content: baseline;
+  width: 50%;
+  font-size: 14px;
+  border-bottom: 1px solid themes.$sky;
+  background-color: themes.$haze;
+
+  &::before {
+    content: "";
+    display: flex;
+    align-self: flex-start;
+    margin-top: 4px;
+    height: 15px;
+    width: 15px;
+    background-image: url("/assets/carouselArrow.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  &:hover {
+    background-color: themes.$mist;
+  }
+
+  &:last-of-type {
+    border-bottom: none;
+  }
+
+  &:nth-child(4n-2) {
+    background-color: themes.$white;
+
+    &:hover {
+      background-color: themes.$mist;
+    }
+  }
+
+  &:nth-child(4n-3) {
+    background-color: themes.$white;
+
+    &:hover {
+      background-color: themes.$mist;
+    }
+  }
+
+  &:nth-child(odd) {
+    border-right: 1px solid themes.$sky;
+
+    @include themes.small {
+      background-color: themes.$white;
+      border-right: none;
+    }
+  }
+
+  &:nth-child(even) {
+    @include themes.small {
+      background-color: themes.$haze;
+    }
+  }
+
+  @include themes.small {
+    width: 100%;
+
+    &:hover {
+      background-color: themes.$mist;
+    }
+  }
+}
+
+.paragraph {
+  margin: 50px auto 80px auto;
+}

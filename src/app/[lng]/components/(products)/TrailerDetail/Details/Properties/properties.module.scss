@@ -1,0 +1,26 @@
+@use "../../../../../styles/themes.scss" as themes;
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  color: themes.$shaft;
+  font-weight: 700;
+  font-size: 12px;
+  justify-content: space-between;
+}
+
+.image {
+  display: flex;
+  gap: 10px;
+}
+
+.title {
+  margin: 10px 0;
+}
+
+.value {
+  color: themes.$shaft;
+  font-weight: 700;
+  margin: 0;
+  align-self: flex-end;
+}

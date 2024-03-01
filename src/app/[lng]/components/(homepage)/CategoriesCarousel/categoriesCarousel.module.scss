@@ -1,0 +1,56 @@
+@use "../../../styles/themes.scss" as themes;
+
+.carousel {
+  width: 100%;
+  height: auto;
+  max-width: 1920px;
+  margin: 50px auto;
+
+  @include themes.medium {
+    margin: 50px auto 0 auto;
+  }
+}
+
+.link {
+  width: auto;
+
+  @include themes.large {
+    width: auto;
+  }
+
+  @include themes.small {
+    width: auto;
+  }
+
+  @include themes.superSmall {
+    width: auto;
+  }
+}
+
+.background {
+  height: 400px;
+
+  @include themes.max {
+    height: 350px;
+  }
+
+  @include themes.extraLarge {
+    height: 300px;
+  }
+
+  @include themes.large {
+    height: 260px;
+  }
+
+  @include themes.medium {
+    height: 220px;
+  }
+
+  @include themes.small {
+    height: 200px;
+  }
+
+  @include themes.superSmall {
+    height: 200px;
+  }
+}

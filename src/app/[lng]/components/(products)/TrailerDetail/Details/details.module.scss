@@ -1,0 +1,58 @@
+@use "../../../../styles/themes.scss" as themes;
+
+.container {
+  border-radius: 6px;
+  border: 1px solid themes.$alto;
+  background-color: themes.$white;
+  padding: 16px;
+  text-align: left;
+}
+
+.heading {
+  font-weight: 500;
+  font-size: 20px;
+
+  @include themes.large {
+    font-size: 18px;
+  }
+}
+
+.properites {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 10px auto 20px auto;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-start;
+  margin-top: 14px;
+}
+
+.tag {
+  background-color: themes.$shaft;
+  color: themes.$white;
+  padding: 1px 5px;
+  font-size: 14px;
+  display: flex;
+  gap: 3px;
+
+  @include themes.large {
+    font-size: 12px;
+  }
+}
+
+.subtitle {
+  font-size: 10px;
+  margin-bottom: 2px;
+  margin-top: auto;
+
+  @include themes.large {
+    margin-bottom: 1px;
+  }
+}

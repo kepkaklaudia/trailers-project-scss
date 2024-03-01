@@ -1,0 +1,63 @@
+@use "../../../styles/themes.scss" as themes;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 90%;
+  height: 100%;
+  margin-left: -10px;
+}
+
+.carousel {
+  max-width: 717px;
+  width: 100%;
+  height: auto;
+
+  &__secondary {
+    max-width: 352px;
+    width: 100%;
+    height: auto;
+
+    @include themes.superSmall {
+      width: 80%;
+    }
+  }
+}
+
+.image {
+  &__container {
+    max-width: 717px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 100%;
+    aspect-ratio: 1.8/1;
+
+    &__secondary {
+      margin-right: 10px;
+      margin-left: 10px;
+      border: 1px solid themes.$alto;
+      background-color: themes.$white;
+      border-radius: 6px;
+      height: 100%;
+      aspect-ratio: 1.8/1;
+    }
+  }
+
+  width: 100%;
+  max-width: 717px;
+  border: 1px solid themes.$alto;
+  background-color: themes.$white;
+  border-radius: 6px;
+  height: 100%;
+  aspect-ratio: 1.8/1;
+
+  &__secondary {
+    width: 100%;
+    border: 1px solid themes.$alto;
+    background-color: themes.$white;
+    border-radius: 6px;
+    height: 100%;
+    aspect-ratio: 1.8/1;
+  }
+}

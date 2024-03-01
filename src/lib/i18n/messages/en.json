@@ -1,0 +1,370 @@
+{
+  "about-us": {
+    "categoriesSection": {
+      "Our trailer models": "Our trailer models",
+      "We offer a variety": "We offer a\u00A0variety among our trailer models, tailored to various types of\u00A0use."
+    },
+    "coloredSection": {
+      "Production process": "Production process",
+      "It starts with": "It starts with the design of the trailer, taking into account technical and functional specifications. Our team of engineers and designers work on creating an optimal project that meets our customers' expectations. After completing the design process, we proceed to the actual production. Our technologically advanced machines enable us to bend, cut, and shape various materials such as steel, aluminum, or synthetic materials, allowing us to create robust and\u00A0durable trailer\u00A0structures.",
+      "An essential stage": "An essential stage of production is welding. In our company, we employ robotic welding, ensuring precision and reliability of welded joints. By using advanced welding robots, we create strong and durable connections that are essential for ensuring the safety and durability of the\u00A0trailers."
+    },
+    "summary": {
+      "After completing": "After completing the production process, the trailers undergo rigorous quality testing. We test various aspects, such as strength, safety, functionality, and compliance with industry standards. Only after successfully passing these tests, the trailers are ready to be delivered to our\u00A0customers."
+    },
+    "features": {
+      "High quality": "High quality",
+      "Our trailers": "Our trailers are designed and manufactured with the highest precision and attention to\u00A0detail.",
+      "Safety": "Safety",
+      "Functionality": "Functionality",
+      "Innovative solutions": "Innovative solutions",
+      "We introduce": "We introduce the latest technologies, such as intelligent security systems and advanced LED\u00A0lighting.",
+      "Technology": "Technology",
+      "Innovation": "Innovation",
+      "Customized": "Customized to your\u00A0needs",
+      "We offer": "We offer various trailer models tailored to different types of\u00A0use.",
+      "Versatility": "Versatility",
+      "Customization": "Customization",
+      "Why choose": "Why choose our\u00A0trailers?",
+      "As a new producer": "As a new producer of trailers for personal vehicles, we strive to\u00A0provide excellent customer service. Our\u00A0qualified employees are ready to answer any questions and assist in choosing the right trailer that meets your expectations. We invite you to\u00A0explore our offer and join the ranks of satisfied customers who enjoy safe, functional, and stylish trailers for personal\u00A0vehicles."
+    },
+    "intro": {
+      "Get to know Balhanger": "Get to know Balhanger",
+      "As a producer": "As a\u00A0producer of trailers for personal vehicles, we offer a\u00A0diverse range of models tailored to various types of use. Whether you need a\u00A0trailer for transporting luggage, sports equipment, camping gear, or any other cargo, we have the perfect solution for\u00A0you."
+    }
+  },
+
+  "common": {
+    "contact": {
+      "Contact": "Contact",
+      "Contact us": "Contact us",
+      "FullName": "Full Name",
+      "Enter your full name": "Enter your full name",
+      "This field is required": "This field is required",
+      "E-mail": "E-mail",
+      "Enter your e-mail": "Enter your e-mail",
+      "Incorrect e-mail address": "Incorrect e-mail address",
+      "Message": "Message",
+      "Write a message": "Write a\u00A0message",
+      "I agree to receive commercial through electronic communication": "I\u00A0agree to receive commercial information from Balhanger through electronic communication means, in\u00A0accordance with\u00A0the Act on the provision of electronic services, to\u00A0the email address provided by\u00A0me.*",
+      "I also consent to receiving commercial through telecommunications": "I also consent to receiving commercial information from Balhanger through telecommunications end devices (telephone, Internet) and automatic calling systems, in\u00A0accordance with the telecommunications\u00A0law.*",
+      "This consent is voluntary": "*This consent is voluntary, granting consent will enable the company Balhanger\u00A0Ltd.\u00A0partnership., to send information about current offers and promotions related to their products. Consent can always be revoked by sending an email to: info@balhanger.com. In case of not checking the consents, we will contact you to discuss the terms of any potential further cooperation. Read more in the ",
+      "Privacy Policy": "Privacy\u00A0Policy.",
+      "I consent to the processing of my personal data": "I consent to the processing of my personal data in accordance with\u00A0the Personal Data Protection Act in\u00A0connection with\u00A0submitting an inquiry through the contact form. Providing the data is voluntary but necessary for processing the inquiry. I\u00A0have been informed that I\u00A0have the right to access my data, rectify it, and request its cessation of\u00A0processing. The\u00A0administrator of personal data is Balhanger\u00A0Ltd.\u00A0partnership.",
+      "Consent is required": "Consent is required",
+      "Send a message": "Send a message",
+      "Add files": "Add files",
+      "Number of uploaded files": "Number of uploaded files:",
+      "Select files": "Select files or drag and drop them\u00A0here",
+      "File(s) uploaded": "File(s) uploaded",
+      "No file(s) selected": "No file(s) selected",
+      "Delete file": "Delete file",
+      "Delete all files": "Delete all files",
+      "Thank you": "Thank you",
+      "The form has been sent": "The form has been sent",
+      "Back to home page": "Back to home page",
+      "Close": "Close"
+    },
+    "categories": {
+      "Luggage": "Luggage",
+      "Car transporters": "Car transporters",
+      "Boat / Motorcycle": "Boat / Motorcycle",
+      "Special / Building": "Special / Building"
+    }
+  },
+
+  "contact": {
+    "Contact": "Contact",
+    "Complaints and returns": "Complaints and\u00A0returns",
+    "We strongly encourage you": "We strongly encourage you to directly contact our salesperson in case of complaints, service remarks, or if you are interested in purchasing additional equipment. The salesperson is well-informed about our products and is ready to provide you with all the necessary information, accept complaints, and process them in cooperation with us. Additionally, they will also respond to any questions that may arise regarding our\u00A0products.",
+    "We are at your service": "We are at your\u00A0service",
+    "contactData": {
+      "Assembly plant": "Assembly plant",
+      "Sales Representative": "Sales Representative"
+    }
+  },
+
+  "downloads": {
+    "Sign book": "Sign book",
+    "Logo": "Logo",
+    "Product card": "Product card PL",
+    "Marketing materials": "Marketing materials",
+    "Complaint form": "Complaint form",
+    "intro": {
+      "Please use": "Please use the BALHANGER logo and images responsibly and judiciously. If\u00A0you have any questions or concerns regarding the distribution of materials, please feel free to contact the Marketing\u00A0Department.",
+      "All the images": "All images presented on our website are for illustrative purposes. We have endeavored to accurately represent the appearance of our products. However, we would like to emphasize that the final product may slightly differ from the presented images. This is due to the specific individual requirements of our customers and optional equipment\u00A0elements.",
+      "Marketing materials": "Marketing materials",
+      "User manuals": "User manuals",
+      "Product cards": "Product cards",
+      "Flyers": "Flyers",
+      "Photos": "Photos",
+      "Logo": "Logo",
+      "Brand book": "Brand book",
+      "Complaint form": "Complaint form"
+    },
+    "Instructions": "Instructions",
+    "Instruction PL": "Instruction PL",
+    "Instruction EN": "Instruction EN",
+    "Instruction FR": "Instruction FR",
+    "Instruction DE": "Instruction DE",
+    "marketingMaterials": {
+      "Manuals": "Manuals",
+      "Product cards": "Product cards",
+      "Flyers": "Flyers",
+      "Images": "Images"
+    },
+    "Price catalogue PL": "Price catalogue PL",
+    "Price catalogue EN": "Price catalogue EN",
+    "Price catalogues": "Price catalogues"
+  },
+
+  "homepage": {
+    "Categories": "Categories",
+    "Choose your ideal trailer": "Choose your ideal\u00A0trailer",
+    "aboutProduction": {
+      "How we create": "How we create our\u00A0trailers",
+      "How we create description": "In our company, we have a\u00A0modern machinery park that enables us to\u00A0effectively and efficiently produce trailers for passenger cars. Our\u00A0technologically advanced machines and\u00A0robotic welding stations guarantee high quality and\u00A0precision at every stage of\u00A0production.",
+      "A wide selection": "A wide selection of\u00A0trailers",
+      "A broad range of services": "A broad range of services",
+      "A wide selection description": "The production process begins with the design of\u00A0the\u00A0trailer, taking into account technical and\u00A0functional specifications. Our team of\u00A0engineers and\u00A0designers works on\u00A0creating an\u00A0optimal project that meets the expectations of\u00A0our\u00A0customers.",
+      "Our trailers": "Our trailers"
+    },
+    "aboutUs": {
+      "About us": "About us",
+      "About us description": "We are proud to introduce our company, which specializes in the design and production of innovative trailers that perfectly fit passenger cars. We focus on delivering high-quality products that meet the highest standards of\u00A0safety, functionality, and\u00A0durability. Our\u00A0trailers are designed with various needs and\u00A0lifestyles of\u00A0drivers in\u00A0mind, ensuring reliability and\u00A0comfort during\u00A0travels.",
+      "Why us": "Why us?",
+      "Why us description": "As a manufacturer of trailers for passenger cars, we offer a\u00A0variety of\u00A0models that are tailored to different types of usage. Whether you need a\u00A0trailer for transporting luggage, sports equipment, camping gear, or any other cargo, we have the perfect solution for\u00A0you."
+    },
+    "createTrailers": {
+      "Creating trailers": "Creating trailers",
+      "Learn more": "Learn more about the production of\u00A0your\u00A0trailer",
+      "Check out": "Check out"
+    }
+  },
+
+  "layout": {
+    "footer": {
+      "Finance department": "Finance department",
+      "Service and complaints": "Service and complaints",
+      "Information": "Information",
+      "Contact form": "Contact form",
+      "About us": "About us",
+      "Partners": "Partners",
+      "Assembly plant": "Assembly plant",
+      "Sales department": "Sales department",
+      "Sales Representative": "Sales Representative",
+      "Statute": "Statute",
+      "FAQ": "FAQ",
+      "Privacy policy": "Privacy policy"
+    },
+    "header": {
+      "Trailers": "Trailers",
+      "Luggage": "Luggage",
+      "Car transporters": "Car transporters",
+      "Boat / Motorcycle": "Boat / Motorcycle",
+      "Special / Building": "Special / Building",
+      "About us": "About us",
+      "Downloads": "Downloads",
+      "Contact": "Contact",
+      "Partners": "Partners"
+    }
+  },
+
+  "product": {
+    "Data couldn't be downloaded": "Data couldn't be\u00A0downloaded.",
+    "Check your internet connection": "Check your internet\u00A0connection.",
+    "Please try again later": "Please try again\u00A0later.",
+    "Data is not available": "Data is not available.",
+    "productDetails": {
+      "downloads": {
+        "Product cards": "Product cards",
+
+        "Product card galvanized PL": "Product card galvanized PL",
+        "Product card galvanized EN": "Product card galvanized EN",
+
+        "Product card powdered": "Powder-coated trailer",
+        "Open product card": "Open product card",
+        "No downloads": "No downloads"
+      },
+      "drawings": {
+        "No drawings": "No drawings"
+      },
+      "menuButtons": {
+        "Additional equipment": "Additional equipment",
+        "Technical specifications": "Technical specifications",
+        "Dimensional drawings": "Dimensional drawings",
+        "Downloads": "Downloads"
+      },
+      "technicalSpecifications": {
+        "Gross vehicle weight [kg]": "Gross vehicle weight [kg]",
+        "Load capacity [kg]": "Load capacity [kg]",
+        "Loading area dimension [mm]": "Loading area dimension [mm]",
+        "Curb weight [kg]": "Curb weight [kg]",
+        "External dimensions": "External dimensions",
+        "length x width x height [mm]": "length x width x height [mm]",
+        "Number of axles": "Number of axles",
+        "Type of axles": "Type of axles",
+        "Type of wheels": "Type of wheels"
+      },
+      "additionalEquipment": {
+        "Additional equipment": "Additional equipment",
+        "No data": "No data"
+      },
+      "variantButtons": {
+        "Galvanized": "Galvanized",
+        "Powder-coated": "Powder-coated",
+        "With filling": "With\u00A0filling"
+      }
+    },
+    "tags": {
+      "Tags": "Tags",
+      "three-axles": "three-axles",
+      "two-axles": "two-axles",
+      "one-axle": "one-axle",
+      "GVW750": "GVW750",
+      "GVW2500": "GVW2500",
+      "GVW2700": "GVW2700",
+      "GVW3000": "GVW3000",
+      "GVW3500": "GVW3500"
+    },
+    "properties": {
+      "Properties": "Properties"
+    }
+  },
+
+  "products": {
+    "Data couldn't be downloaded": "Data couldn't be\u00A0downloaded.",
+    "Check your internet connection": "Check your internet\u00A0connection.",
+    "Please try again later": "Please try again\u00A0later.",
+    "categoriesButtons": {
+      "Show all": "Show all"
+    },
+    "heading": {
+      "all": "All products",
+      "special": "Special / Building",
+      "car-transporters": "Car transporters",
+      "luggage": "Luggage",
+      "boat": "Boat / Motorcycle"
+    },
+    "searchField": {
+      "Select a trailer": "Select a trailer",
+      "Provide the name of the trailer": "Provide the name of the\u00A0trailer",
+      "Search": "Search"
+    },
+    "sortModal": {
+      "Sort by": "Sort by",
+      "Name": "Name",
+      "Length": "Length",
+      "Width": "Width",
+      "Height": "Height",
+      "Curb weight": "Curb weight",
+      "Ascending": "Ascending",
+      "Descending": "Descending",
+      "Reset": "Reset",
+      "Sort": "Sort"
+    },
+    "sortSection": {
+      "GVW": "GVW",
+      "Load area": "Load area",
+      "Ascending": "Ascending",
+      "Descending": "Descending",
+      "Reset": "Reset",
+      "More options": "More options"
+    },
+    "tags": {
+      "Tags": "Tags",
+      "three-axles": "three-axles",
+      "one-axle": "one-axle",
+      "two-axles": "two-axles",
+      "GVW750": "GVW750",
+      "GVW2500": "GVW2500",
+      "GVW2700": "GVW2700",
+      "GVW3000": "GVW3000",
+      "GVW3500": "GVW3500"
+    },
+    "trailerDetail": {
+      "Properties of": "Properties\u00A0of",
+      "GVW [kg]": "GVW [kg]",
+      "HEIGHT [mm]": "HEIGHT [mm]",
+      "WIDTH [mm]": "WIDTH [mm]",
+      "Loading area": "Loading area:",
+      "Length": "Length:",
+      "Curb weight": "Curb weight:",
+      "Available versions": "Available versions",
+      "Galvanized": "Galvanized",
+      "Powder-coated": "Powder-coated",
+      "More information": "More information",
+      "Special": "Special / Building",
+      "Car Transporters": "Car transporters",
+      "Luggage": "Luggage",
+      "Boat": "Boat / Motorcycle"
+    },
+    "viewSelector": {
+      "View": "View"
+    }
+  },
+  "notFound": {
+    "Page not found": "Page not found",
+    "Back to main page": "Back to main page"
+  },
+
+  "partners": {
+    "Our partners": "Our partners",
+    "Search partners": "Search partners...",
+    "No results": " No results"
+  },
+
+  "metaData": {
+    "homepage": {
+      "title": "Trailer manufacturer | Balhanger",
+      "description": "We are a Polish company specializing in the production of various types of trailers - for cars, motorcycles, construction, boats and more. Our range includes a wide selection of high-quality trailers tailored to diverse needs. Explore our products today!",
+      "keywords": "trailers, car trailers, trailer, car transporter, single-axle trailer, double-axle trailer, construction trailer"
+    },
+    "notFound": {
+      "title": "Oops! Page not found - Trailer manufacturer | Balhanger",
+      "description": "We're sorry, but it looks like you've landed on unfamiliar territory. Check out our wide range of trailers, from car transporters to construction trailers. Find the perfect trailer for your needs at Balhanger. Contact us for more information!"
+    },
+    "aboutPage": {
+      "title": "About us. Trailer manufacturer | Balhanger",
+      "description": "We are a manufacturer of car trailers, a team of automotive enthusiasts. Our company focuses on delivering customers the highest quality solutions, individually tailored to their needs. Get to know our energetic team, dedication, and innovative approach to the transportation industry. Our goal is to provide reliable transport solutions that meet the expectations of even the most demanding customers."
+    },
+    "contactPage": {
+      "title": "Contact with us. Trailer manufacturer | Balhanger",
+      "description": "Need a reliable and safe car trailer? Benefit from our expertise and knowledge to match the perfect trailer to your needs. Contact us today, and our experts will promptly address all your queries, offering professional guidance in choosing the perfect solution for you."
+    },
+    "downloads": {
+      "title": "Downloads. Trailer manufacturer | Balhanger",
+      "description": "Download the official Brand Book and Logo Guidelines from the manufacturer of car trailers. Discover precise instructions on how to use the logo and valuable insights into the principles of its usage. Learn more!"
+    },
+    "productsPage": {
+      "luggage": {
+        "title": "Luggage Trailers. Trailer manufacturer | Balhanger",
+        "description": "Discover a wide range of practical luggage trailers in our offer. Find the perfect solution for transporting cargo during your travels – from lightweight luggage trailers to sturdy models. Choose from various sizes and designs, ensuring reliability and functionality during baggage transport. Find the perfect luggage trailer that meets your needs."
+      },
+      "all": {
+        "title": "Trailers Offer. Trailer manufacturer | Balhanger",
+        "description": "Discover a diverse range of car trailers, perfect for various purposes. Find the right trailer for transportation tailored to your needs. Explore our product range and select the best trailer for your travels and transportation tasks."
+      },
+      "car-transporters": {
+        "title": "Car transporters. Trailer manufacturer | Balhanger",
+        "description": "Explore our extensive range of trailers. Find the perfect trailer ready to meet even the most demanding transportation tasks. Check out the technical specifications, customization options, and special features to find the ideal trailer to fulfill your goals."
+      },
+      "boat": {
+        "title": "Boat / Motorcycle Trailers. Trailer manufacturer | Balhanger",
+        "description": "Explore our diverse range of high-quality boat and motorcycle trailers. Discover excellent solutions for transporting boats or motorcycles, tailored to various needs and expectations. Check out our models, functional solutions, and technical specifications. Find the perfect trailer that meets your requirements and ensures safe transport in any situation."
+      },
+      "special": {
+        "title": "Special / Building Trailers. Trailer manufacturer | Balhanger",
+        "description": "Explore our extensive selection of high-quality special and construction trailers. Our range offers durable and functional solutions perfectly suited to the needs of the construction and transportation industries. Find the ideal trailer to match your requirements and streamline your transport processes. Contact us to discover our full product range and receive expert guidance to choose the perfect solution for your business needs."
+      }
+    },
+    "productPage": {
+      "title": "Trailer details",
+      "description": "- detailed information. Our models are characterized by robust construction, functionality, and versatility in application. Explore a wide range of solutions that ensure reliability and efficiency in everyday operations. Find the appropriate trailer tailored to the specifics of your project, guaranteeing effectiveness and safety in any application."
+    },
+    "partners": {
+      "title": "Partners. Trailer manufacturer | Balhanger",
+      "description": "Welcome to explore the partner network of the renowned manufacturer of Balhanger car trailers. Browse through the areas of operation of our partners and discover local stores offering our high-quality trailers. Together, we are building an integrated brand ecosystem ready to meet all your needs. Check our list of partners to find the nearest dealer now and experience the unparalleled quality of our products!"
+    }
+  }
+}

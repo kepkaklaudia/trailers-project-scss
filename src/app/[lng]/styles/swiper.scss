@@ -1,0 +1,9 @@
+@use "./themes.scss" as themes;
+
+.swiper-pagination-bullet-active {
+  background: themes.$shaft !important;
+}
+
+.swiper {
+  padding-bottom: 50px !important;
+}

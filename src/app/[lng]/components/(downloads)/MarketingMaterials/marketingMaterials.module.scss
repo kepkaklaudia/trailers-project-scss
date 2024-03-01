@@ -1,0 +1,22 @@
+@use "../../../styles/themes.scss" as themes;
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 80px auto 0 auto;
+  justify-content: space-between;
+  width: 80%;
+  height: auto;
+  gap: 20px;
+  justify-items: center;
+
+  @include themes.medium {
+    max-width: 300px;
+  }
+
+  @include themes.superSmall {
+    margin-top: 50px;
+    justify-content: center;
+  }
+}

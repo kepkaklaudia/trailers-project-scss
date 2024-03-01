@@ -1,0 +1,69 @@
+{
+  "data": {
+    "pathID": "opti-lift-50",
+    "pdfGalvanized": "opti-lift-50-galvanized-2024",
+    "pdfGalvanizedEn": "",
+    "pdfPowdered": "opti-lift-50-powdered",
+    "name": "OptiLift 50",
+    "category": "Car Transporters",
+    "path": "car-transporters",
+    "family": "opti-lift",
+    "tags": ["GVW3500", "GVW3000", "GVW2700", "two-axles"]
+  },
+
+  "specification": {
+    "gvw": "2700 | 3000 | 3500",
+    "load": "2000 | 2300 | 2750",
+    "area": "5030x2100",
+    "weight": "700 | 700 | 750",
+    "dimensions": "7063 X 2100 X 680",
+    "axles": "2",
+    "axlesType": "Hamowne",
+    "wheels": "10\", (13\" dla 3500kg)"
+  },
+
+  "drawings": {
+    "front": "front",
+    "profile": "profile",
+    "top": "top"
+  },
+
+  "standard": [
+    "Konstrukcja cynkowana\u00A0ogniowo",
+    "Zintegrowana rampa\u00A0najazdowa",
+    "Platforma uchylana grawitacyjnie za pomocą sprężyn\u00A0gazowych",
+    "Wciągarka ręczna KNOTT",
+    "Koło podporowe",
+    "Kliny blokujące koło",
+    "Oświetlenie LED"
+  ],
+
+  "optional": [
+    "Elementy malowane\u00A0proszkowo",
+    "Wypełnienie aluminiowe",
+    "Skrzynka narzędziowa",
+    "Automatyczne koło podporowe",
+    "Wciągarka ręczna AL-KO",
+    "Wciągarka elektryczna",
+    "Amortyzatory",
+    "Pompa hydrauliczna jednostronna",
+    "Pompa hydrauliczna dwustronna",
+    "Oświetlenie tylne z dynamicznym\u00A0kierunkowskazem"  ],
+
+  "images": {
+    "galvanized": [
+      "r1_closed",
+      "r2_closed",
+      "r3_closed"
+    ],
+    "powdered": ["r1_closed", "r1_tilting", "r2_closed", "r2_tilting", "r3_closed", "r3_tilting"],
+    "filled": [
+      "r1_closed_galvanized",
+      "r1_closed_powdered",
+      "r2_closed_galvanized",
+      "r2_closed_powdered",
+      "r2_tilting_galvanized",
+      "r2_tilting_powdered"
+    ]
+  }
+}

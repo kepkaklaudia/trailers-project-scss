@@ -1,0 +1,37 @@
+{
+  "data": {
+    "pathID": "mkb-271530",
+    "pdfFileName": "",
+    "name": "MKB 271530",
+    "category": "Special",
+    "path": "special",
+    "family": "mkb",
+    "tags": ["GVW3500", "GVW3000", "GVW2700", "two-axles"]
+  },
+
+  "specification": {
+    "gvw": "2700 | 3000 | 3500",
+    "load": "1950 | 2250 | 2700",
+    "area": "3050x1560",
+    "weight": "750 | 750 | 800",
+    "dimensions": "5230 X 2270 X 1870",
+    "axles": "2",
+    "axlesType": "Braked",
+    "wheels": "13\""
+  },
+
+  "standard": ["Wheel type 195x50 R13C", "Loading angle (ramps) 19°"],
+
+  "optional": [],
+
+  "drawings": {
+    "front": "",
+    "profile": "",
+    "top": ""
+  },
+
+  "images": {
+    "galvanized": ["r1_closed_2", "r1_opened_2", "r2_closed_2", "r2_opened_2"],
+    "powdered": ["r1_closed", "r1_opened", "r2_closed", "r2_opened"]
+  }
+}

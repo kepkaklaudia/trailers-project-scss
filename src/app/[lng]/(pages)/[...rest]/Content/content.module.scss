@@ -1,0 +1,17 @@
+@use "../../../styles/themes.scss" as themes;
+@use "../../../styles/button.scss" as button;
+
+.header {
+  font-weight: 600;
+  font-size: 100px;
+}
+
+.title {
+  margin-top: 50px;
+}
+
+.link {
+  @include button.button;
+  margin-top: 30px;
+  font-weight: 400;
+}

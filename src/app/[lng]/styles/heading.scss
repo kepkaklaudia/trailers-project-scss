@@ -1,0 +1,15 @@
+@use "./themes.scss" as themes;
+
+@mixin heading {
+  margin-top: 50px;
+  font-size: 35px;
+  font-weight: 700;
+
+  @include themes.large {
+    font-size: 30px;
+  }
+
+  @include themes.superSmall {
+    font-size: 25px;
+  }
+}

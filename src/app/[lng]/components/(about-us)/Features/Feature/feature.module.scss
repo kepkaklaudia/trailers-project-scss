@@ -1,0 +1,34 @@
+@use "../../../../styles/themes.scss" as themes;
+@use "../../../../styles/container.scss" as container;
+
+.container {
+  @include container.border;
+
+  @include themes.superSmall {
+    grid-template-columns: 1fr;
+  }
+}
+
+.image {
+  @include themes.large {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+.heading {
+  font-size: 18px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tag {
+  background-color: themes.$shaft;
+  color: themes.$white;
+  font-size: 12px;
+  padding: 2px 4px;
+}

@@ -1,0 +1,51 @@
+@use "../../../styles/themes.scss" as themes;
+@use "../../../styles/dropdown.scss" as dropdown;
+
+.dropdown {
+  @include dropdown.dropdown;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  right: -35px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  @include themes.medium {
+    top: 28px;
+    right: -15px;
+  }
+
+  @include themes.small {
+    top: 25px;
+  }
+
+  @include themes.superSmall {
+    top: 23px;
+  }
+
+  &::after {
+    transform: translateY(-4px);
+  }
+
+  &:hover::after {
+    transform: translateY(-4px);
+  }
+
+  &:hover::before {
+    transform: rotate(90deg) translateY(-22px);
+  }
+
+  &__toggle {
+    background-color: transparent;
+    border: none;
+    &:hover {
+      background-color: transparent;
+    }
+    &:focus-visible {
+      background-color: transparent;
+    }
+    &:active {
+      background-color: transparent;
+    }
+  }
+}

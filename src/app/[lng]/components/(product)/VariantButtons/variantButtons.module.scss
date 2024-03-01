@@ -1,0 +1,15 @@
+@use "../../../styles/themes.scss" as themes;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  @include themes.large {
+    gap: 16px;
+  }
+
+  @include themes.large {
+    gap: 10px;
+  }
+}

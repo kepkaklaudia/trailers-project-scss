@@ -1,0 +1,14 @@
+@use "../../../styles/heading.scss" as heading;
+@use "../../../styles/themes.scss" as themes;
+
+.container {
+  border-bottom: 1px solid themes.$alto;
+  width: 100%;
+}
+
+.heading {
+  @include heading.heading;
+  margin: 20px auto;
+  width: 80%;
+  text-align: left;
+}

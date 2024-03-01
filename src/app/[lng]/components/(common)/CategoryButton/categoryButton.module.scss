@@ -1,0 +1,111 @@
+@use "../../../styles/themes.scss" as themes;
+@use "../../../styles/button.scss" as button;
+
+@mixin background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  justify-content: center;
+}
+
+.link {
+  color: themes.$white;
+  text-decoration: none;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0;
+  letter-spacing: 0.5px;
+  border-radius: 20px;
+}
+
+.paragraph {
+  margin: 0;
+  padding: 0 10px;
+}
+
+.description {
+  width: 100%;
+  margin: 0;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 4px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+
+  @include themes.large {
+    font-size: 14px;
+  }
+
+  @include themes.small {
+    font-size: 12px;
+    height: 60px;
+  }
+}
+
+.luggage {
+  &__background {
+    @include background;
+    background-image: url("/assets/categories/luggageTrailerCard.webp");
+
+    &__active {
+      @include background;
+      background-image: url("/assets/categories/luggageTrailerCard.webp");
+      background-color: #808ca7;
+      background-blend-mode: luminosity;
+      box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.4);
+    }
+  }
+}
+
+.car-transporters {
+  &__background {
+    @include background;
+    background-image: url("/assets/categories/carTrailerCard.webp");
+
+    &__active {
+      @include background;
+      background-image: url("/assets/categories/carTrailerCard.webp");
+      background-color: themes.$hippie;
+      background-blend-mode: luminosity;
+      box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.4);
+    }
+  }
+}
+
+.boat {
+  &__background {
+    @include background;
+    background-image: url("/assets/categories/boatTrailerCard.webp");
+    &__active {
+      @include background;
+      background-image: url("/assets/categories/boatTrailerCard.webp");
+      background-color: #8babca;
+      background-blend-mode: luminosity;
+      box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.4);
+    }
+  }
+}
+
+.special {
+  &__background {
+    background-image: url("/assets/categories/specialTrailerCard.webp");
+    @include background;
+
+    &__active {
+      @include background;
+      background-image: url("/assets/categories/specialTrailerCard.webp");
+      background-color: #bd8c64;
+      background-blend-mode: luminosity;
+      box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.4);
+    }
+  }
+}

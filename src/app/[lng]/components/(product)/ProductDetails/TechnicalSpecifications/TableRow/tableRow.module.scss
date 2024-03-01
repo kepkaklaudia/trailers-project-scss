@@ -1,0 +1,27 @@
+@use "../../../../../styles/themes.scss" as themes;
+
+.tr {
+  &:hover {
+    background-color: themes.$mist;
+  }
+
+  &:nth-of-type(even) {
+    background-color: themes.$haze;
+    &:hover {
+      background-color: themes.$mist;
+    }
+  }
+}
+
+.td {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid themes.$sky;
+  font-size: 14px;
+  min-width: 50px;
+
+  &__first {
+    font-weight: 600;
+    text-align: left;
+  }
+}

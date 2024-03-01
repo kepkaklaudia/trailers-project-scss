@@ -1,0 +1,84 @@
+{
+  "data": {
+    "pathID": "trimax-60",
+    "pdfGalvanized": "trimax-60-galvanized-2024",
+    "pdfGalvanizedEn": "",
+    "pdfPowdered": "trimax-60-powdered",
+    "name": "TriMax 60",
+    "category": "Car Transporters",
+    "path": "car-transporters",
+    "family": "trimax",
+    "tags": ["GVW3500", "GVW3000", "three-axles"]
+  },
+
+  "specification": {
+    "gvw": "3000 | 3500",
+    "load": "2050 | 2400",
+    "area": "6000x2100",
+    "weight": "950",
+    "dimensions": "7632 X 2100 X 595",
+    "axles": "3",
+    "axlesType": "Braked",
+    "wheels": "10\""
+  },
+
+  "drawings": {
+    "front": "front",
+    "profile": "profile",
+    "top": "top"
+  },
+
+  "standard": [
+    "Hot-dip galvanized\u00A0construction",
+    "Loading ramps made of galvanized steel hidden under the\u00A0platform (length: 1,5m)",
+    "One-way hydraulic\u00A0pump",
+    "Manual winch - KNOTT",
+    "Support wheel",
+    "Wheel chocks",
+    "LED lighting",
+    "Shock absorbers"
+  ],
+
+  "optional": [
+    "Powder-coated elements",
+    "Aluminum filling",
+    "Toolbox",
+    "Automatic support\u00A0wheel",
+    "Manual winch - AL-KO",
+    "Electric winch",
+    "Two-way hydraulic pump",
+    "Rear lighting with dynamic direction\u00A0indicator",
+    "Loading ramps made of aluminum hidden under the\u00A0platform (length: 2m)"
+  ],
+
+  "images": {
+    "galvanized": [
+      "r1_closed",
+      "r1_ramps",
+      "r1_tilting",
+      "r2_closed",
+      "r2_ramps",
+      "r2_tilting",
+      "r3_closed",
+      "r3_ramps",
+      "r3_tilting",
+      "r4_closed",
+      "r4_ramps",
+      "r4_tilting"
+    ],
+    "powdered": [
+      "r1_closed",
+      "r1_ramps",
+      "r1_tilting",
+      "r2_closed",
+      "r2_ramps",
+      "r2_tilting",
+      "r3_closed",
+      "r3_ramps",
+      "r3_tilting",
+      "r4_closed",
+      "r4_ramps",
+      "r4_tilting"
+    ]
+  }
+}

@@ -1,0 +1,368 @@
+{
+  "about-us": {
+    "categoriesSection": {
+      "Our trailer models": "Nasze modele przyczep",
+      "We offer a variety": "Oferujemy różnorodność wśród naszych modeli przyczep, dopasowanych do różnych rodzajów\u00A0użytkowania."
+    },
+    "coloredSection": {
+      "Production process": "Proces produkcyjny",
+      "It starts with": "Rozpoczyna się od zaprojektowania przyczepy, uwzględniając specyfikacje techniczne i\u00A0funkcjonalne. Nasz zespół inżynierów i\u00A0projektantów pracuje nad stworzeniem optymalnego projektu, który spełni oczekiwania naszych klientów. Po zakończeniu procesu projektowania, przechodzimy do produkcji właściwej. Nasze zaawansowane technologicznie maszyny umożliwiają nam, gięcie, wycinanie i\u00A0formowanie różnych materiałów, takich jak stal, aluminium czy tworzywa sztuczne. Dzięki temu możemy tworzyć solidne i\u00A0trwałe konstrukcje\u00A0przyczep.",
+      "An essential stage": "Ważnym etapem produkcji jest spawanie. W\u00A0naszej firmie stosujemy spawanie zrobotyzowane, co zapewnia dokładność i\u00A0niezawodność połączeń spawanych. Za pomocą zaawansowanych robotów spawalniczych tworzymy mocne i\u00A0trwałe połączenia, które są niezbędne do zapewnienia bezpieczeństwa i\u00A0wytrzymałości\u00A0przyczep."
+    },
+    "summary": {
+      "After completing": "Po zakończeniu procesu produkcyjnego, przyczepy przechodzą przez rygorystyczne testy jakości. Testujemy różne aspekty, takie jak wytrzymałość, bezpieczeństwo, funkcjonalność i\u00A0zgodność z\u00A0normami branżowymi. Tylko po pomyślnym przejściu tych testów przyczepy są gotowe do dostarczenia\u00A0klientom."
+    },
+    "features": {
+      "High quality": "Wysoka jakość",
+      "Our trailers": "Nasze przyczepy są zaprojektowane oraz wykonane z\u00A0najwyższą precyzją i\u00A0dbałością o\u00A0detale.",
+      "Safety": "Bezpieczeństwo",
+      "Functionality": "Funkcjonalność",
+      "Innovative solutions": "Innowacyjne rozwiązania",
+      "We introduce": "Wprowadzamy najnowsze technologie, takie jak inteligentne systemy zabezpieczeń i\u00A0zaawansowane oświetlenie\u00A0LED.",
+      "Technology": "Technologia",
+      "Innovation": "Innowacyjność",
+      "Customized": "Dopasowanie do\u00A0potrzeb",
+      "We offer": "Oferujemy różne modele przyczep, które są dostosowane do\u00A0różnych rodzajów\u00A0użytkowania.",
+      "Versatility": "Różnorodność",
+      "Customization": "Dostosowanie",
+      "Why choose": "Dlaczego warto wybrać nasze\u00A0przyczepy?",
+      "As a new producer": "Jako nowy producent przyczep do samochodów osobowych, dążymy do zapewnienia doskonałej obsługi klienta. Nasi wykwalifikowani pracownicy są gotowi odpowiedzieć na wszelkie pytania i\u00A0pomóc w\u00A0wyborze odpowiedniej przyczepy, która spełni Państwa oczekiwania. Zapraszamy do zapoznania się z\u00A0naszą ofertą i\u00A0dołączenia do grona zadowolonych klientów, którzy cieszą się bezpiecznymi, funkcjonalnymi i\u00A0stylowymi przyczepami do samochodów\u00A0osobowych."
+    },
+    "intro": {
+      "Get to know Balhanger": "Poznaj Balhanger",
+      "As a producer": "Jako producent przyczep do samochodów osobowych, oferujemy różnorodne modele, które są dostosowane do różnych rodzajów użytkowania. Niezależnie od tego, czy potrzebujesz przyczepy do przewozu bagażu, sprzętu sportowego, kempingowego wyposażenia czy innego ładunku, mamy idealne rozwiązanie dla\u00A0Ciebie."
+    }
+  },
+
+  "common": {
+    "contact": {
+      "Contact": "Kontakt",
+      "Contact us": "Skontaktuj się z\u00A0nami",
+      "FullName": "Imię i\u00A0nazwisko",
+      "Enter your full name": "Podaj swoje imię i\u00A0nazwisko",
+      "This field is required": "To pole jest wymagane",
+      "E-mail": "E-mail",
+      "Enter your e-mail": "Podaj swój adres e-mail",
+      "Incorrect e-mail address": "Nieprawidłowy adres e-mail",
+      "Message": "Wiadomość",
+      "Write a message": "Napisz wiadomość",
+      "I agree to receive commercial through electronic communication": "Wyrażam zgodę na otrzymywanie od Balhanger informacji handlowych za pomocą środków komunikacji elektronicznej zgodnie z\u00A0ustawą o\u00A0świadczeniu usług drogą elektroniczną na wskazany przeze mnie adres\u00A0e-mail.*",
+      "I also consent to receiving commercial through telecommunications": "Wyrażam zgodę na otrzymywanie od firmy Balhanger informacji handlowych przy użyciu telekomunikacyjnych urządzeń końcowych (telefon, Internet) oraz automatycznych systemów wywołujących, zgodnie z\u00A0przepisami prawa\u00A0telekomunikacyjnego.*",
+      "This consent is voluntary": "*Ta zgoda jest dobrowolna, uzyskanie zgody umożliwi firmie: Balhanger\u00A0sp.\u00A0z\u00A0o.o.\u00A0sp.k., przesyłanie informacji o\u00A0aktualnych ofertach i\u00A0promocjach dotyczących swoich produktów. Zgoda może być zawsze odwołana poprzez wysłanie e-mail na adres: info@balhanger.com. W\u00A0przypadku braku zaznaczenia zgód skontaktujemy się z\u00A0Państwem w\u00A0celu omówienia warunków ewentualnej dalszej współpracy. Przeczytaj więcej w\u00A0",
+      "Privacy Policy": "Polityce\u00A0Prywatności.",
+      "I consent to the processing of my personal data": "Wyrażam zgodę na przetwarzanie moich danych osobowych zgodnie z\u00A0ustawą o\u00A0ochronie danych osobowych w\u00A0związku z\u00A0wysłaniem zapytania przez formularz kontaktowy. Podanie danych jest dobrowolne, ale niezbędne do przetworzenia zapytania. Zostałem poinformowany, że przysługuje mi prawo dostępu do swoich danych, możliwości ich poprawiania, żądania zaprzestania ich przetwarzania. Administratorem danych osobowych jest Balhanger\u00A0sp.\u00A0z\u00A0o.o.\u00A0sp.k.",
+      "Consent is required": "Wyrażenie zgody jest wymagane",
+      "Send a message": "Wyślij wiadomość",
+      "Add files": "Dodaj pliki",
+      "Number of uploaded files": "Liczba załadowanych plików:",
+      "Select files": "Wybierz pliki lub przeciągnij i\u00A0upuść je\u00A0tutaj",
+      "File(s) uploaded": "Załadowano plik/i",
+      "No file(s) selected": "Nie wybrano pliku/ów",
+      "Delete file": "Usuń plik",
+      "Delete all files": "Usuń wszystkie pliki",
+      "Thank you": "Dziękujemy",
+      "The form has been sent": "Formularz został wysłany",
+      "Back to home page": "Wróć na stronę główną",
+      "Close": "Zamknij"
+    },
+    "categories": {
+      "Luggage": "Bagażowe",
+      "Car transporters": "Lawety",
+      "Boat / Motorcycle": "Podłodziowe / Motocyklowe",
+      "Special / Building": "Specjalne / Budowlane"
+    }
+  },
+
+  "contact": {
+    "Contact": "Kontakt",
+    "Complaints and returns": "Reklamacja i\u00A0zwroty",
+    "We strongly encourage you": "Serdecznie zachęcamy do kontaktowania się bezpośrednio z\u00A0naszym sprzedawcą w\u00A0przypadku reklamacji, uwag serwisowych lub jeśli jesteś zainteresowany zakupem dodatkowego sprzętu. Sprzedawca jest dobrze poinformowany na temat naszych produktów i\u00A0jest gotowy udzielić Ci wszelkich potrzebnych informacji, przyjąć zgłoszenie reklamacji i\u00A0przetworzyć je we współpracy z\u00A0nami. Ponadto, będą również odpowiadać na wszystkie pytania, które mogą się pojawić w\u00A0związku z\u00A0naszymi\u00A0produktami.",
+    "We are at your service": "Jesteśmy do Twojej\u00A0dyspozycji",
+    "contactData": {
+      "Assembly plant": "Zakład montażowy",
+      "Sales Representative": "Przedstawiciel handlowy"
+    }
+  },
+
+  "downloads": {
+    "Sign book": "Księga znaku",
+    "Logo": "Logo",
+    "Product card": "Karta produktowa",
+    "Marketing materials": "Materiały marketingowe",
+    "Complaint form": "Formularz reklamacyjny",
+    "intro": {
+      "Please use": "Prosimy o odpowiedzialne i\u00A0uzasadnione korzystanie z\u00A0zamieszczonego logo oraz zdjęć BALHANGER. W\u00A0przypadku pytań czy wątpliwości dotyczących rozpowszechniania materiałów, zapraszamy do kontaktu z\u00A0Działem Marketingu",
+      "All the images": "Wszystkie prezentowane na naszej stronie zdjęcia mają charakter poglądowy. Staraliśmy się jak najdokładniej oddać wygląd naszych produktów. Pragniemy jednak zaznaczyć, że finalny produkt może nieznacznie różnić się od prezentowanych zdjęć. Ma to związek ze specyficznymi indywidualnymi wymaganiami naszych klientów oraz opcjonalnymi elementami wyposażenia.",
+      "User manuals": "Instrukcje obsługi",
+      "Product cards": "Karty produktów",
+      "Flyers": "Ulotki",
+      "Photos": "Zdjęcia",
+      "Logo": "Logo",
+      "Brand book": "Księga znaku",
+      "Complaint form": "Formularz reklamacyjny"
+    },
+    "Instructions": "Instrukcje",
+    "Instruction PL": "Instrukcja PL",
+    "Instruction EN": "Instrukcja EN",
+    "Instruction FR": "Instrukcja FR",
+    "Instruction DE": "Instrukcja DE",
+    "marketingMaterials": {
+      "Manuals": "Instrukcje obsługi",
+      "Product cards": "Karty produktów",
+      "Flyers": "Ulotki",
+      "Images": "Zdjęcia"
+    },
+    "Price catalogue PL": "Katalog cenowy PL",
+    "Price catalogue EN": "Katalog cenowy EN",
+    "Price catalogues": "Katalogi cenowe"
+  },
+
+  "homepage": {
+    "Categories": "Kategorie",
+    "Choose your ideal trailer": "Wybierz swoją idealną\u00A0przyczepę",
+    "aboutProduction": {
+      "How we create": "Jak tworzymy nasze\u00A0przyczepy",
+      "How we create description": "W naszej firmie posiadamy nowoczesny park maszynowy, który\u00A0umożliwia nam skuteczną i\u00A0efektywną produkcję przyczep do samochodów osobowych. Nasze zaawansowane technologicznie maszyny oraz stanowiska do spawania zrobotyzowanego gwarantują wysoką jakość i\u00A0precyzję w\u00A0każdym etapie\u00A0produkcji.",
+      "A wide selection": "Duży wybór przyczep",
+      "A broad range of services": "Szeroki wachlarz usług",
+      "A wide selection description": "Proces produkcyjny rozpoczyna się od\u00A0zaprojektowania przyczepy, uwzględniając specyfikacje techniczne i\u00A0funkcjonalne.Nasz zespół inżynierów i\u00A0projektantów pracuje nad stworzeniem optymalnego projektu, który spełni oczekiwania naszych\u00A0klientów.",
+      "Our trailers": "Nasze przyczepy"
+    },
+    "aboutUs": {
+      "About us": "O nas",
+      "About us description": "Jesteśmy dumni, że\u00A0możemy przedstawić Państwu naszą firmę, która specjalizuje się w\u00A0projektowaniu i\u00A0produkcji innowacyjnych przyczep, które doskonale pasują do samochodów osobowych. Koncentruje się na dostarczaniu wysokiej jakości produktów, które spełniają najwyższe standardy bezpieczeństwa, funkcjonalności i\u00A0wytrzymałości. Nasze\u00A0przyczepy są zaprojektowane z\u00A0myślą o\u00A0różnych potrzebach i\u00A0stylach życia kierowców, zapewniając niezawodność i\u00A0komfort podczas\u00A0podróży.",
+      "Why us": "Dlaczego my?",
+      "Why us description": "Jako producent przyczep do samochodów osobowych, oferujemy różnorodne modele, które są\u00A0dostosowane do\u00A0różnych rodzajów użytkowania Niezależnie od tego, czy potrzebujesz przyczepy do przewozu bagażu, sprzętu sportowego, kempingowego wyposażenia czy innego ładunku, mamy idealne rozwiązanie dla\u00A0Ciebie."
+    },
+    "createTrailers": {
+      "Creating trailers": "Tworzenie przyczep",
+      "Learn more": "Dowiedz się więcej o\u00A0produkcji Twojej\u00A0przyczepy",
+      "Check out": "Sprawdź"
+    }
+  },
+
+  "layout": {
+    "footer": {
+      "Finance department": "Dział finansowy",
+      "Service and complaints": "Serwis i\u00A0reklamacje",
+      "Information": "Informacja",
+      "Contact form": "Formularz kontaktowy",
+      "About us": "O nas",
+      "Partners": "Partnerzy",
+      "Sales Representative": "Przedstawiciel handlowy",
+      "Assembly plant": "Zakład montażowy",
+      "Sales department": "Dział handlowy",
+      "Statute": "Regulamin",
+      "FAQ": "FAQ",
+      "Privacy policy": "Polityka prywatności"
+    },
+    "header": {
+      "Trailers": "Przyczepy",
+      "Luggage": "Bagażowe",
+      "Car transporters": "Lawety",
+      "Boat / Motorcycle": "Podłodziowe / Motocyklowe",
+      "Special / Building": "Specjalne / Budowlane",
+      "About us": "O nas",
+      "Downloads": "Do pobrania",
+      "Contact": "Kontakt",
+      "Partners": "Partnerzy"
+    }
+  },
+
+  "product": {
+    "Data couldn't be downloaded": " Nie udało się pobrać\u00A0danych.",
+    "Check your internet connection": " Sprawdź swoje połączenie z\u00A0Internetem.",
+    "Please try again later": "Prosimy spróbuj ponownie\u00A0później.",
+    "Data is not available": "Dane nie są dostępne",
+    "productDetails": {
+      "downloads": {
+        "Product cards": "Karty produktowe",
+        "Product card galvanized PL": "Przyczepa ocynkowana PL",
+        "Product card galvanized EN": "Przyczepa ocynkowana EN",
+        "Product card powdered": "Przyczepa proszkowana",
+        "Open product card": "Otwórz kartę produktową",
+        "No downloads": "Brak plików"
+      },
+      "drawings": {
+        "No drawings": "Brak rysunków"
+      },
+      "menuButtons": {
+        "Technical specifications": "Specyfikacja techniczna",
+        "Dimensional drawings": "Wymiary gabarytowe",
+        "Downloads": "Do pobrania",
+        "Additional equipment": "Dodatkowe wyposażenie"
+      },
+      "technicalSpecifications": {
+        "Gross vehicle weight [kg]": "Dopuszczalna masa całkowita [kg]",
+        "Load capacity [kg]": "Ładowność [kg]",
+        "Loading area dimension [mm]": "Wymiar powierzchni załadunku [mm]",
+        "Curb weight [kg]": " Masa własna [kg]",
+        "External dimensions": " Wymiary zewnętrzne",
+        "length x width x height [mm]": "długość x szerokość x wysokość [mm]",
+        "Number of axles": "Ilość osi",
+        "Type of axles": "Rodzaj osi",
+        "Type of wheels": "Rodzaj kół"
+      },
+      "additionalEquipment": {
+        "Additional equipment": "Dodatkowe wyposażenie",
+        "No data": "Brak danych"
+      },
+      "variantButtons": {
+        "Galvanized": "Ocynkowana",
+        "Powder-coated": "Proszek",
+        "With filling": "Z\u00A0wypełnieniem"
+      }
+    },
+    "tags": {
+      "Tags": "Tagi",
+      "three-axles": "trójosiowa",
+      "two-axles": "dwuosiowa",
+      "one-axle": "jednoosiowa",
+      "GVW750": "DMC750",
+      "GVW2500": "DMC2500",
+      "GVW2700": "DMC2700",
+      "GVW3000": "DMC3000",
+      "GVW3500": "DMC3500"
+    },
+    "properties": {
+      "Properties": "Cechy"
+    }
+  },
+
+  "products": {
+    "Data couldn't be downloaded": " Nie udało się pobrać\u00A0danych.",
+    "Check your internet connection": " Sprawdź swoje połączenie z\u00A0Internetem.",
+    "Please try again later": "Prosimy spróbuj ponownie\u00A0później.",
+    "categoriesButtons": {
+      "Show all": "Pokaż wszystko"
+    },
+    "heading": {
+      "all": "Wszystkie produkty",
+      "special": "Specjalne / Budowlane",
+      "car-transporters": "Lawety",
+      "luggage": "Bagażowe",
+      "boat": "Podłodziowe / Motocyklowe"
+    },
+    "searchField": {
+      "Select a trailer": "Wybierz przyczepę",
+      "Provide the name of the trailer": "Podaj nazwę przyczepy",
+      "Search": "Szukaj"
+    },
+    "sortModal": {
+      "Sort by": "Sortuj według",
+      "Name": "Nazwa",
+      "Length": "Długość",
+      "Width": "Szerokość",
+      "Height": "Wysokość",
+      "Curb weight": "Masa własna",
+      "Ascending": "Rosnąco",
+      "Descending": "Malejąco",
+      "Reset": "Resetuj",
+      "Sort": "Sortuj"
+    },
+    "sortSection": {
+      "GVW": "DMC",
+      "Load area": "Powierzchnia załadunku",
+      "Ascending": "Rosnąco",
+      "Descending": "Malejąco",
+      "Reset": "Resetuj",
+      "More options": "Więcej opcji"
+    },
+    "tags": {
+      "Tags": "Tagi",
+      "three-axles": "trójosiowa",
+      "two-axles": "dwuosiowa",
+      "one-axle": "jednoosiowa",
+      "GVW750": "DMC750",
+      "GVW2500": "DMC2500",
+      "GVW2700": "DMC2700",
+      "GVW3000": "DMC3000",
+      "GVW3500": "DMC3500"
+    },
+    "trailerDetail": {
+      "Properties of": "Cechy",
+      "GVW [kg]": "DMC [kg]",
+      "HEIGHT [mm]": "WYSOKOŚĆ [mm]",
+      "WIDTH [mm]": "SZEROKOŚĆ [mm]",
+      "Loading area": "Powierzchnia załadunku:",
+      "Length": "Długość:",
+      "Curb weight": "Masa własna:",
+      "Available versions": "Dostępne wersje",
+      "Galvanized": "Ocynk",
+      "Powder-coated": "Proszek",
+      "More information": "Więcej informacji",
+      "Special": "Specjalne / Budowlane",
+      "Car Transporters": "Lawety",
+      "Luggage": "Bagażowe",
+      "Boat": "Podłodziowe / Motocyklowe"
+    },
+    "viewSelector": {
+      "View": "Widok"
+    }
+  },
+
+  "notFound": {
+    "Page not found": "Nie znaleziono strony",
+    "Back to main page": "Powrót do strony głównej"
+  },
+
+  "partners": {
+    "Our partners": "Nasi partnerzy",
+    "Search partners": "Wyszukaj partnerów...",
+    "No results": " Brak wyników"
+  },
+
+  "metaData": {
+    "homepage": {
+      "title": "Producent przyczep samochodowych | Balhanger",
+      "description": "Jesteśmy polską firmą wyspecjalizowaną w produkcji różnorodnych typów przyczep - samochodowych, motocyklowych, budowlanych, podłodziowych i wielu innych. Nasza oferta obejmuje szeroki wybór wysokiej jakości przyczep, dostosowanych do różnorodnych potrzeb. Zapraszamy do zapoznania się z naszymi produktami!",
+      "keywords": "przyczepy, przyczepy samochodowe, przyczepa"
+    },
+    "notFound": {
+      "title": "Ups! Strona nie została znaleziona - Producent przyczep samochodowych | Balhanger",
+      "description": "Przepraszamy, ale wygląda na to, że trafiłeś na nieznany teren. Sprawdź naszą szeroką ofertę przyczep samochodowych, od lawet po budowlane. Znajdź idealną przyczepę do Twoich potrzeb w Balhanger. Skontaktuj się z nami, aby uzyskać więcej informacji!"
+    },
+    "aboutPage": {
+      "title": "O nas. Producent Przyczep Samochodowych | Balhanger",
+      "description": "Jesteśmy producentem przyczep samochodowych, zespołem pasjonatów motoryzacji. Nasza firma koncentruje się na dostarczaniu klientom najwyższej jakości rozwiązań, indywidualnie dopasowanych do ich potrzeb. Poznaj naszą pełną energii ekipę, zaangażowanie oraz innowacyjne podejście do przemysłu transportowego. Naszym celem jest zapewnienie niezawodnych rozwiązań transportowych, spełniających oczekiwania nawet najbardziej wymagających klientów."
+    },
+    "contactPage": {
+      "title": "Skontaktuj się z nami. Producent Przyczep Samochodowych | Balhanger",
+      "description": "Potrzebujesz niezawodnej i bezpiecznej przyczepy samochodowej? Skorzystaj z naszego doświadczenia i wiedzy, aby dopasować idealną przyczepę do Twoich potrzeb. Skontaktuj się z nami już dziś, a nasi eksperci odpowiedzą na wszystkie Twoje pytania i zapewnią profesjonalne wsparcie w wyborze najlepszego rozwiązania dla Ciebie."
+    },
+    "downloads": {
+      "title": "Do Pobrania. Producent Przyczep Samochodowych | Balhanger",
+      "description": "Pobierz oficjalną Księgę Znaku i Logo od producenta przyczep samochodowych. Znajdź precyzyjne wytyczne dotyczące wykorzystania logo oraz cenną wiedzę na temat zasad jego użycia. Dowiedz się więcej!"
+    },
+    "productsPage": {
+      "luggage": {
+        "title": "Przyczepy Bagażowe. Producent Przyczep Samochodowych | Balhanger",
+        "description": "Odkryj szeroki wybór praktycznych przyczep bagażowych w naszej ofercie. Znajdź idealne rozwiązanie do przewozu ładunków podczas podróży - od lekkich przyczep bagażowych do solidnych modeli. Wybierz spośród różnorodnych rozmiarów i designów, zapewniając sobie niezawodność i funkcjonalność podczas transportu bagażu. Znajdź idealną przyczepę bagażową, która spełni Twoje potrzeby"
+      },
+      "all": {
+        "title": "Przyczepy samochodowe. Producent Przyczep Samochodowych | Balhanger",
+        "description": "Odkryj różnorodną ofertę przyczep samochodowych, idealnych do różnych zastosowań. Znajdź odpowiednią przyczepę do przewozu, dopasowaną do Twoich potrzeb. Zapoznaj się z naszą gamą produktów i wybierz najlepszą przyczepę dla Twoich podróży i zadań transportowych."
+      },
+      "car-transporters": {
+        "title": "Lawety. Producent Przyczep Samochodowych | Balhanger",
+        "description": "Zapoznaj się z naszym bogatym asortymentem lawet. Znajdź perfekcyjną lawetę, gotową sprostać nawet najbardziej wymagającym zadaniom transportowym. Sprawdź parametry techniczne, możliwości dostosowania i specjalne funkcje, by znaleźć idealną lawetę do realizacji Twoich celów."
+      },
+      "boat": {
+        "title": "Przyczepy podłodziowe / motocyklowe. Producent Przyczep Samochodowych | Balhanger",
+        "description": "Zapoznaj się z naszą różnorodną ofertą wysokiej jakości przyczep podłodziowych i motocyklowych. Odkryj doskonałe rozwiązania dla transportu łodzi czy motocykli, dostosowane do różnych potrzeb i oczekiwań. Sprawdź nasze modele, funkcjonalne rozwiązania oraz specyfikacje techniczne. Znajdź idealną przyczepę, która sprosta Twoim wymaganiom i zapewni bezpieczny transport w każdej sytuacji."
+      },
+      "special": {
+        "title": "Przyczepy specjalne / budowlane. Producent Przyczep Samochodowych | Balhanger",
+        "description": "Zapoznaj się z naszą kompleksową ofertą wysokiej jakości przyczep specjalnych i budowlanych. Oferujemy szeroki wybór solidnych i funkcjonalnych rozwiązań, doskonale dostosowanych do potrzeb branży budowlanej i transportowej. Znajdź idealną przyczepę, dopasowaną do Twoich wymagań i optymalizującą procesy transportowe. Skontaktuj się z nami, aby poznać pełen zakres naszych produktów i uzyskać profesjonalne doradztwo w doborze najlepszego rozwiązania dla Twojej działalności."
+      }
+    },
+    "productPage": {
+      "title": "Szczegóły przyczepy",
+      "description": "- szczegółowe dane. Nasze modele charakteryzują się solidnymi konstrukcjami, funkcjonalnością oraz elastycznością w zastosowaniu. Odkryj szeroką gamę rozwiązań, zapewniających niezawodność i wydajność w codziennych operacjach. Znajdź odpowiednią przyczepę, dostosowaną do specyfiki Twojego przedsięwzięcia, gwarantującą efektywność i bezpieczeństwo w każdym zastosowaniu."
+    },
+    "partners": {
+      "title": "Partnerzy. Producent Przyczep Samochodowych | Balhanger",
+      "description": "Zapraszamy do odkrywania sieci partnerskiej renomowanego producenta przyczep samochodowych Balhanger. Przejrzyj obszary działalności naszych partnerów i odnajdź lokalne sklepy oferujące nasze wysokiej jakości przyczepy. Wspólnie tworzymy zintegrowany ekosystem marki, gotowy zaspokoić wszystkie Twoje potrzeby. Sprawdź naszą listę partnerów, aby znaleźć najbliższego sprzedawcę już teraz i doświadcz niezrównanej jakości naszych produktów!"
+    }
+  }
+}

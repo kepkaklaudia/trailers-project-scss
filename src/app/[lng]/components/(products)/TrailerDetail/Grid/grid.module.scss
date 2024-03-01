@@ -1,0 +1,118 @@
+@use "../../../../styles/heading.scss" as heading;
+@use "../../../../styles/themes.scss" as themes;
+@use "../../../../styles/button.scss" as button;
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
+  align-items: flex-start;
+  margin-top: 50px;
+  margin-bottom: 100px;
+
+  @include themes.large {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @include themes.small {
+    grid-template-columns: 1fr;
+  }
+  @include themes.small {
+    margin-bottom: 80px;
+  }
+}
+
+.paragraph {
+  justify-self: flex-start;
+}
+
+.wrapper__main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid themes.$alto;
+  padding: 40px;
+  height: 100%;
+
+  @include themes.extraLarge {
+    padding: 30px;
+  }
+
+  @include themes.large {
+    padding: 20px;
+  }
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  max-width: 550px;
+  aspect-ratio: 1.8/1;
+  border-radius: 6px;
+  border: 1px solid themes.$alto;
+  background-color: themes.$white;
+  max-height: 300px;
+
+  @include themes.extraLarge {
+    justify-self: normal;
+  }
+}
+
+.details__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+
+  @include themes.large {
+    font-size: 14px;
+  }
+}
+
+.checkbox {
+  text-align: left;
+  font-weight: 500;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 5px;
+  align-items: center;
+
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  &__description {
+    background-color: themes.$shaft;
+    color: themes.$white;
+    margin: 15px 0;
+    padding: 2px 0px;
+  }
+}
+
+.button {
+  @include button.button;
+  width: 180px;
+  align-self: center;
+  margin: 25px 0;
+  text-decoration: none;
+
+  @include themes.superSmall {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+}
+
+.border {
+  width: 120%;
+  align-self: center;
+}

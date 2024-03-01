@@ -1,0 +1,11 @@
+@use "../styles/main.scss" as main;
+@use "../styles/themes.scss" as themes;
+
+.main {
+  @include main.main;
+  margin-top: 180px;
+
+  @include themes.small {
+    margin-top: 120px;
+  }
+}

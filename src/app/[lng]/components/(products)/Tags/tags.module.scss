@@ -1,0 +1,51 @@
+@use "../../../styles/themes.scss" as themes;
+@use "../../../styles/link.scss" as link;
+
+.tags {
+  max-width: 70%;
+  text-align: left;
+
+  @include themes.extraLarge {
+    font-size: 14px;
+  }
+
+  @include themes.large {
+    max-width: 100%;
+  }
+
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    row-gap: 10px;
+    column-gap: 5px;
+  }
+}
+
+.tag {
+  width: auto;
+  color: themes.$blackOpacity;
+  margin: 0;
+  transition: color 0.3s, opacity 0.3s;
+  @include link.link;
+
+  &:hover {
+    color: themes.$black;
+    opacity: 1;
+  }
+
+  &::after {
+    height: 0.5px;
+  }
+
+  &:hover::after {
+    background: themes.$black;
+  }
+
+  &__active {
+    -webkit-text-stroke: 0.3px;
+    margin: 0;
+    cursor: pointer;
+    color: themes.$black;
+  }
+}

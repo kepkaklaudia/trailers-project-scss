@@ -1,0 +1,10 @@
+@use "../../styles/themes.scss" as themes;
+@use "../../styles/stroke.scss" as stroke;
+
+.border {
+  margin-bottom: 70px;
+}
+
+.stroke {
+  @include stroke.stroke;
+}

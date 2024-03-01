@@ -1,0 +1,122 @@
+@use "../../../../styles/themes.scss" as themes;
+@use "../../../../styles/dropdown.scss" as dropdown;
+@use "../../../../styles/link.scss" as link;
+
+.wrapper {
+  max-width: 1920px;
+  width: 84%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+
+  @include themes.medium {
+    width: 90%;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    padding: 0 20px;
+  }
+}
+
+.navbar {
+  &__logo {
+    margin: 12px 5px;
+    width: auto;
+    height: 25px;
+
+    @include themes.large {
+      height: 25px;
+      margin: 10px 0px;
+    }
+
+    @include themes.small {
+      height: 20px;
+    }
+
+    @include themes.superSmall {
+      height: 15px;
+    }
+  }
+
+  &__toggle {
+    margin-right: 20px;
+  }
+
+  &__collapse {
+    justify-content: center;
+    gap: 80px;
+    margin-right: 15%;
+
+    @include themes.max {
+      margin-right: 10%;
+    }
+
+    @include themes.extraLarge {
+      gap: 60px;
+      margin-right: 0;
+    }
+
+    @include themes.large {
+      gap: 30px;
+    }
+  }
+}
+
+.dropdown {
+  @include dropdown.dropdown;
+  color: themes.$white;
+  display: inline-block;
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+  &::after {
+    top: 5px;
+  }
+
+  &::before {
+    right: -40px;
+  }
+
+  &:hover::before {
+    transform: rotate(90deg) translateY(-20px);
+  }
+}
+
+.nav {
+  gap: 60px;
+
+  @include themes.extraLarge {
+    gap: 40px;
+  }
+
+  @include themes.large {
+    gap: 15px;
+  }
+
+  @include themes.medium {
+    gap: 0px;
+  }
+
+  &__link {
+    @include link.link;
+    align-self: center;
+
+    &::after {
+      top: 5px;
+    }
+
+    @include themes.large {
+      font-size: 15px;
+    }
+    @include themes.medium {
+      align-self: flex-start;
+    }
+  }
+
+  &__image {
+    @include themes.large {
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
