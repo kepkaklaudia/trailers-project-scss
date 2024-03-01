@@ -14,6 +14,7 @@ export const Content = () => {
     <>
       {/* <StrokedTitle title={t("Marketing materials")} />*/}
       {/* <MarketingMaterials />*/}
+      
       <Intro />
       <StrokedTitle title={"Logo"} />
       <div className={styles.container}>
