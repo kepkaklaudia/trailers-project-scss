@@ -131,7 +131,6 @@ export const Content = () => {
           <p className={styles.paragraph}>{t("Instruction DE")}</p>
         </a>
       </div>
-
       {/*
         <StrokedTitle title={t("Complaint form")} />
         <div className={styles.container}>
