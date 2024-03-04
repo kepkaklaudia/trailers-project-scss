@@ -2,8 +2,8 @@
   "data": {
     "pathID": "trimax-lift-60",
     "pdfGalvanized": "trimax-lift-60-galvanized-2024",
-    "pdfGalvanizedEn": "",
-    "pdfPowdered": "trimax-lift-60-powdered",
+    "pdfGalvanizedEn": "trimax-lift-60-galvanized-2024-EN",
+    "pdfPowdered": "",
     "name": "TriMax Lift 60",
     "category": "Car Transporters",
     "path": "car-transporters",

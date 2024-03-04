@@ -12,7 +12,7 @@
       "width": 2100,
       "height": 679,
       "gvw": 2700,
-      "curbWeight": 650,
+      "curbWeight": 680,
       "tags": ["GVW2700", "two-axles"]
     },
     {
@@ -27,7 +27,7 @@
       "width": 2100,
       "height": 679,
       "gvw": 3000,
-      "curbWeight": 650,
+      "curbWeight": 700,
       "tags": ["GVW3000", "two-axles"]
     },
     {
@@ -42,7 +42,7 @@
       "width": 2100,
       "height": 679,
       "gvw": 3500,
-      "curbWeight": 700,
+      "curbWeight": 780,
       "urlGalvanized": "/assets/product.png",
       "urlPowdered": "/assets/zd3.webp",
       "tags": ["GVW3500", "two-axles"]
@@ -104,7 +104,7 @@
       "width": 2100,
       "height": 679,
       "gvw": 2700,
-      "curbWeight": 700,
+      "curbWeight": 680,
       "tags": ["GVW2700", "two-axles"]
     },
     {
@@ -134,7 +134,7 @@
       "width": 2100,
       "height": 679,
       "gvw": 3500,
-      "curbWeight": 750,
+      "curbWeight": 780,
       "tags": ["GVW3500", "two-axles"]
     },
     {
@@ -188,13 +188,13 @@
       "name": "Opti 2755",
       "category": "Car Transporters",
       "path": "car-transporters",
-      "widthArea": 5530,
+      "widthArea": 5500,
       "lengthArea": 2100,
       "length": 7115,
       "width": 2100,
       "height": 679,
       "gvw": 2700,
-      "curbWeight": 800,
+      "curbWeight": 680,
       "tags": ["GVW2700", "two-axles"]
     },
     {
@@ -209,7 +209,7 @@
       "width": 2100,
       "height": 679,
       "gvw": 3000,
-      "curbWeight": 800,
+      "curbWeight": 700,
       "tags": ["GVW3000", "two-axles"]
     },
     {
@@ -224,7 +224,7 @@
       "width": 2100,
       "height": 679,
       "gvw": 3500,
-      "curbWeight": 850,
+      "curbWeight": 780,
       "tags": ["GVW3500", "two-axles"]
     },
     {

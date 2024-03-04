@@ -2,8 +2,8 @@
   "data": {
     "pathID": "opti-lift-45",
     "pdfGalvanized": "opti-lift-45-galvanized-2024",
-    "pdfGalvanizedEn": "",
-    "pdfPowdered": "opti-lift-45-powdered",
+    "pdfGalvanizedEn": "opti-lift-45-galvanized-2024-EN",
+    "pdfPowdered": "",
     "name": "OptiLift 45",
     "category": "Car Transporters",
     "path": "car-transporters",
