@@ -36,12 +36,19 @@ export default function ContactPage() {
       <div className={styles.container}>
         <MotionSpring>
           <h2 className={styles.container__heading}>
-            {t("Complaints and returns")}
+            {t("Complaints and service")}
           </h2>
-
-          <p className={styles.container__paragraph}>
-            {t("We strongly encourage you")}
-          </p>
+          <div className={styles.container__paragraphs}>
+            <p className={styles.container__paragraph}>
+              {t("We strongly encourage you")}
+            </p>
+            <p className={styles.container__paragraph}>{t("Regardless")}</p>
+            <p className={styles.container__paragraph}>{t("Furthermore")}</p>
+            <p className={styles.container__paragraph}>{t("This means")}</p>
+            <p className={styles.container__paragraph}>
+              {t("With our experience")}
+            </p>
+          </div>{" "}
         </MotionSpring>
       </div>
       <Stroke

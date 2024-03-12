@@ -45,6 +45,12 @@
       font-size: 14px;
     }
   }
+
+  &__paragraphs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
 }
 
 .border {
