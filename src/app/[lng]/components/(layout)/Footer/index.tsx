@@ -21,7 +21,7 @@ export const Footer = () => {
               linkText="info@balhanger.com"
             />
             <Wrapper> Wsola, Gombrowicza 4</Wrapper>
-            <Wrapper>26-660 Jedlińsk</Wrapper>
+            <Wrapper>26-660 Jedlińsk, Poland</Wrapper>
           </Section>
           <Section
             className={styles.section__complaints}

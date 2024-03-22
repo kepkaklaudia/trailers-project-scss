@@ -10,7 +10,7 @@ export const ContactData = () => {
       <ContactDataItem
         title={"Balhanger"}
         firstParagraph={"Wsola, Gombrowicza 4"}
-        secondParagraph={"26-660 Jedlińsk"}
+        secondParagraph={"26-660 Jedlińsk, Poland"}
         firstLink={"info@balhanger.com"}
         firstHref={"mailto:info@balhanger.com"}
       />
